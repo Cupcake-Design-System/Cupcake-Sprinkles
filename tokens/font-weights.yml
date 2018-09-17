@@ -1,5 +1,5 @@
 global:
-  type: string
+  type: font-weight
   category: font-weight
 imports:
   - ./_aliases.yml

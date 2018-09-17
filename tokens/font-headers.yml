@@ -1,5 +1,5 @@
 global:
-  type: string
+  type: font-header
   category: font-header
 imports:
   - ./_aliases.yml

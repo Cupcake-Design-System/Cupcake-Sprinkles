@@ -133,7 +133,7 @@
       "value": "#69db7c"
     },
     "font-weight-semibold": {
-      "value": "600"
+      "value": 600
     },
     "font-header-xxl": {
       "value": "36px"
@@ -220,7 +220,7 @@
       "value": "24px"
     },
     "radius-square": {
-      "value": "0"
+      "value": 0
     },
     "font-header-md": {
       "value": "16px"
@@ -232,7 +232,7 @@
       "value": "16px"
     },
     "font-weight-bold": {
-      "value": "900"
+      "value": 900
     },
     "font-header-sm": {
       "value": "14px"
@@ -253,10 +253,10 @@
       "value": "32px"
     },
     "font-weight-normal": {
-      "value": "400"
+      "value": 400
     },
     "font-weight-light": {
-      "value": "300"
+      "value": 300
     },
     "warning-0": {
       "value": "#fff4e6"
@@ -270,14 +270,14 @@
   },
   "props": {
     "font-stack-sans": {
-      "type": "string",
+      "type": "font-family",
       "category": "font-family",
       "name": "font-stack-sans",
       "value": "-apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", Roboto",
       "originalValue": "{!font-stack-sans}"
     },
     "font-stack-mono": {
-      "type": "string",
+      "type": "font-family",
       "category": "font-family",
       "name": "font-stack-mono",
       "value": "Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace",

@@ -33,4 +33,13 @@ theo.registerFormat("deep", result => {
   `;
 });
 
+
+theo.registerFormat('map.variables.scss', `
+$\{{stem meta.file}}: (
+  {{#each props as |prop|}}
+    {{kebabcase prop.name}}: $\{{kebabcase prop.name}},
+  {{/each}}
+  );`);
+
+
 gulp.task('clean', () => del('./dist'));

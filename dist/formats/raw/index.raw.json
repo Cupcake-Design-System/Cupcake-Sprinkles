@@ -133,7 +133,7 @@
       "value": "#69db7c"
     },
     "font-weight-semibold": {
-      "value": "600"
+      "value": 600
     },
     "font-header-xxl": {
       "value": "36px"
@@ -220,7 +220,7 @@
       "value": "24px"
     },
     "radius-square": {
-      "value": "0"
+      "value": 0
     },
     "font-header-md": {
       "value": "16px"
@@ -232,7 +232,7 @@
       "value": "16px"
     },
     "font-weight-bold": {
-      "value": "900"
+      "value": 900
     },
     "font-header-sm": {
       "value": "14px"
@@ -253,10 +253,10 @@
       "value": "32px"
     },
     "font-weight-normal": {
-      "value": "400"
+      "value": 400
     },
     "font-weight-light": {
-      "value": "300"
+      "value": 300
     },
     "warning-0": {
       "value": "#fff4e6"
@@ -612,147 +612,147 @@
       "originalValue": "{!color-link-hover}"
     },
     "font-body-xs": {
-      "type": "string",
+      "type": "font-body",
       "category": "font-body",
       "name": "font-body-xs",
       "value": "10px",
       "originalValue": "{!font-body-xs}"
     },
     "font-body-sm": {
-      "type": "string",
+      "type": "font-body",
       "category": "font-body",
       "name": "font-body-sm",
       "value": "11px",
       "originalValue": "{!font-body-sm}"
     },
     "font-body-md": {
-      "type": "string",
+      "type": "font-body",
       "category": "font-body",
       "name": "font-body-md",
       "value": "12px",
       "originalValue": "{!font-body-md}"
     },
     "font-body-lg": {
-      "type": "string",
+      "type": "font-body",
       "category": "font-body",
       "name": "font-body-lg",
       "value": "14px",
       "originalValue": "{!font-body-lg}"
     },
     "font-body-xl": {
-      "type": "string",
+      "type": "font-body",
       "category": "font-body",
       "name": "font-body-xl",
       "value": "16px",
       "originalValue": "{!font-body-xl}"
     },
     "font-body-xxl": {
-      "type": "string",
+      "type": "font-body",
       "category": "font-body",
       "name": "font-body-xxl",
       "value": "18px",
       "originalValue": "{!font-body-xxl}"
     },
     "font-header-xs": {
-      "type": "string",
+      "type": "font-header",
       "category": "font-header",
       "name": "font-header-xs",
       "value": "12px",
       "originalValue": "{!font-header-xs}"
     },
     "font-header-sm": {
-      "type": "string",
+      "type": "font-header",
       "category": "font-header",
       "name": "font-header-sm",
       "value": "14px",
       "originalValue": "{!font-header-sm}"
     },
     "font-header-md": {
-      "type": "string",
+      "type": "font-header",
       "category": "font-header",
       "name": "font-header-md",
       "value": "16px",
       "originalValue": "{!font-header-md}"
     },
     "font-header-lg": {
-      "type": "string",
+      "type": "font-header",
       "category": "font-header",
       "name": "font-header-lg",
       "value": "20px",
       "originalValue": "{!font-header-lg}"
     },
     "font-header-xl": {
-      "type": "string",
+      "type": "font-header",
       "category": "font-header",
       "name": "font-header-xl",
       "value": "24px",
       "originalValue": "{!font-header-xl}"
     },
     "font-header-xxl": {
-      "type": "string",
+      "type": "font-header",
       "category": "font-header",
       "name": "font-header-xxl",
       "value": "36px",
       "originalValue": "{!font-header-xxl}"
     },
     "font-line-height-normal": {
-      "type": "string",
+      "type": "line-height",
       "category": "line-height",
       "name": "font-line-height-normal",
       "value": "normal",
       "originalValue": "{!line-height-normal}"
     },
     "font-line-height-default": {
-      "type": "string",
+      "type": "line-height",
       "category": "line-height",
       "name": "font-line-height-default",
       "value": "1.5",
       "originalValue": "{!line-height-default}"
     },
     "font-line-height-condensed": {
-      "type": "string",
+      "type": "line-height",
       "category": "line-height",
       "name": "font-line-height-condensed",
       "value": "1.25",
       "originalValue": "{!line-height-condensed}"
     },
     "font-stack-sans": {
-      "type": "string",
+      "type": "font-family",
       "category": "font-family",
       "name": "font-stack-sans",
       "value": "-apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", Roboto",
       "originalValue": "{!font-stack-sans}"
     },
     "font-stack-mono": {
-      "type": "string",
+      "type": "font-family",
       "category": "font-family",
       "name": "font-stack-mono",
       "value": "Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace",
       "originalValue": "{!font-stack-mono}"
     },
     "font-weight-bold": {
-      "type": "string",
+      "type": "font-weight",
       "category": "font-weight",
       "name": "font-weight-bold",
       "value": "900",
       "originalValue": "{!font-weight-bold}"
     },
     "font-weight-semibold": {
-      "type": "string",
+      "type": "font-weight",
       "category": "font-weight",
       "name": "font-weight-semibold",
       "value": "600",
       "originalValue": "{!font-weight-semibold}"
     },
     "font-weight-normal": {
-      "type": "string",
+      "type": "font-weight",
       "category": "font-weight",
       "name": "font-weight-normal",
       "value": "400",
       "originalValue": "{!font-weight-normal}"
     },
     "font-weight-light": {
-      "type": "string",
+      "type": "font-weight",
       "category": "font-weight",
       "name": "font-weight-light",
       "value": "300",
@@ -844,35 +844,35 @@
     },
     "space-xs": {
       "type": "spacing",
-      "category": "padding",
-      "value": "16px",
-      "originalValue": "{!spacing-md}",
+      "category": "spacing",
+      "value": "4px",
+      "originalValue": "{!spacing-xs}",
       "name": "space-xs"
     },
     "space-sm": {
       "type": "spacing",
-      "category": "padding",
+      "category": "spacing",
       "value": "8px",
       "originalValue": "{!spacing-sm}",
       "name": "space-sm"
     },
     "space-md": {
       "type": "spacing",
-      "category": "padding",
+      "category": "spacing",
       "value": "16px",
       "originalValue": "{!spacing-md}",
       "name": "space-md"
     },
     "space-lg": {
       "type": "spacing",
-      "category": "padding",
+      "category": "spacing",
       "value": "24px",
       "originalValue": "{!spacing-lg}",
       "name": "space-lg"
     },
     "space-xl": {
       "type": "spacing",
-      "category": "padding",
+      "category": "spacing",
       "value": "32px",
       "originalValue": "{!spacing-xl}",
       "name": "space-xl"

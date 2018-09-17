@@ -1,12 +1,12 @@
 global:
   type: spacing
-  category: padding
+  category: spacing
 imports:
   - ./_aliases.yml
 
 props:
   space-xs:
-    value: "{!spacing-md}"
+    value: "{!spacing-xs}"
   space-sm:
     value: "{!spacing-sm}"
   space-md:

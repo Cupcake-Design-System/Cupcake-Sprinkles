@@ -80,7 +80,7 @@ module.exports = {
   shadowMd: "0 6px 12px 0 rgba(0, 0, 0, .1)",
   shadowLg: "0 8px 16px 0 rgba(0, 0, 0, .1)",
   shadowXl: "0 12px 24px 0 rgba(0, 0, 0, .1)",
-  spaceXs: "16px",
+  spaceXs: "4px",
   spaceSm: "8px",
   spaceMd: "16px",
   spaceLg: "24px",

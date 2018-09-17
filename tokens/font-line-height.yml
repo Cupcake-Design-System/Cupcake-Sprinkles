@@ -1,5 +1,5 @@
 global:
-  type: string
+  type: line-height
   category: line-height
 imports:
   - ./_aliases.yml

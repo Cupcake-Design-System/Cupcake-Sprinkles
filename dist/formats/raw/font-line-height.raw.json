@@ -133,7 +133,7 @@
       "value": "#69db7c"
     },
     "font-weight-semibold": {
-      "value": "600"
+      "value": 600
     },
     "font-header-xxl": {
       "value": "36px"
@@ -220,7 +220,7 @@
       "value": "24px"
     },
     "radius-square": {
-      "value": "0"
+      "value": 0
     },
     "font-header-md": {
       "value": "16px"
@@ -232,7 +232,7 @@
       "value": "16px"
     },
     "font-weight-bold": {
-      "value": "900"
+      "value": 900
     },
     "font-header-sm": {
       "value": "14px"
@@ -253,10 +253,10 @@
       "value": "32px"
     },
     "font-weight-normal": {
-      "value": "400"
+      "value": 400
     },
     "font-weight-light": {
-      "value": "300"
+      "value": 300
     },
     "warning-0": {
       "value": "#fff4e6"
@@ -270,21 +270,21 @@
   },
   "props": {
     "font-line-height-normal": {
-      "type": "string",
+      "type": "line-height",
       "category": "line-height",
       "name": "font-line-height-normal",
       "value": "normal",
       "originalValue": "{!line-height-normal}"
     },
     "font-line-height-default": {
-      "type": "string",
+      "type": "line-height",
       "category": "line-height",
       "name": "font-line-height-default",
       "value": "1.5",
       "originalValue": "{!line-height-default}"
     },
     "font-line-height-condensed": {
-      "type": "string",
+      "type": "line-height",
       "category": "line-height",
       "name": "font-line-height-condensed",
       "value": "1.25",

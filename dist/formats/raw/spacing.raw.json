@@ -133,7 +133,7 @@
       "value": "#69db7c"
     },
     "font-weight-semibold": {
-      "value": "600"
+      "value": 600
     },
     "font-header-xxl": {
       "value": "36px"
@@ -220,7 +220,7 @@
       "value": "24px"
     },
     "radius-square": {
-      "value": "0"
+      "value": 0
     },
     "font-header-md": {
       "value": "16px"
@@ -232,7 +232,7 @@
       "value": "16px"
     },
     "font-weight-bold": {
-      "value": "900"
+      "value": 900
     },
     "font-header-sm": {
       "value": "14px"
@@ -253,10 +253,10 @@
       "value": "32px"
     },
     "font-weight-normal": {
-      "value": "400"
+      "value": 400
     },
     "font-weight-light": {
-      "value": "300"
+      "value": 300
     },
     "warning-0": {
       "value": "#fff4e6"
@@ -271,35 +271,35 @@
   "props": {
     "space-xs": {
       "type": "spacing",
-      "category": "padding",
-      "value": "16px",
-      "originalValue": "{!spacing-md}",
+      "category": "spacing",
+      "value": "4px",
+      "originalValue": "{!spacing-xs}",
       "name": "space-xs"
     },
     "space-sm": {
       "type": "spacing",
-      "category": "padding",
+      "category": "spacing",
       "value": "8px",
       "originalValue": "{!spacing-sm}",
       "name": "space-sm"
     },
     "space-md": {
       "type": "spacing",
-      "category": "padding",
+      "category": "spacing",
       "value": "16px",
       "originalValue": "{!spacing-md}",
       "name": "space-md"
     },
     "space-lg": {
       "type": "spacing",
-      "category": "padding",
+      "category": "spacing",
       "value": "24px",
       "originalValue": "{!spacing-lg}",
       "name": "space-lg"
     },
     "space-xl": {
       "type": "spacing",
-      "category": "padding",
+      "category": "spacing",
       "value": "32px",
       "originalValue": "{!spacing-xl}",
       "name": "space-xl"

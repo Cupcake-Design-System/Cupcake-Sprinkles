@@ -133,7 +133,7 @@
       "value": "#69db7c"
     },
     "font-weight-semibold": {
-      "value": "600"
+      "value": 600
     },
     "font-header-xxl": {
       "value": "36px"
@@ -220,7 +220,7 @@
       "value": "24px"
     },
     "radius-square": {
-      "value": "0"
+      "value": 0
     },
     "font-header-md": {
       "value": "16px"
@@ -232,7 +232,7 @@
       "value": "16px"
     },
     "font-weight-bold": {
-      "value": "900"
+      "value": 900
     },
     "font-header-sm": {
       "value": "14px"
@@ -253,10 +253,10 @@
       "value": "32px"
     },
     "font-weight-normal": {
-      "value": "400"
+      "value": 400
     },
     "font-weight-light": {
-      "value": "300"
+      "value": 300
     },
     "warning-0": {
       "value": "#fff4e6"
@@ -270,42 +270,42 @@
   },
   "props": {
     "font-body-xs": {
-      "type": "string",
+      "type": "font-body",
       "category": "font-body",
       "name": "font-body-xs",
       "value": "10px",
       "originalValue": "{!font-body-xs}"
     },
     "font-body-sm": {
-      "type": "string",
+      "type": "font-body",
       "category": "font-body",
       "name": "font-body-sm",
       "value": "11px",
       "originalValue": "{!font-body-sm}"
     },
     "font-body-md": {
-      "type": "string",
+      "type": "font-body",
       "category": "font-body",
       "name": "font-body-md",
       "value": "12px",
       "originalValue": "{!font-body-md}"
     },
     "font-body-lg": {
-      "type": "string",
+      "type": "font-body",
       "category": "font-body",
       "name": "font-body-lg",
       "value": "14px",
       "originalValue": "{!font-body-lg}"
     },
     "font-body-xl": {
-      "type": "string",
+      "type": "font-body",
       "category": "font-body",
       "name": "font-body-xl",
       "value": "16px",
       "originalValue": "{!font-body-xl}"
     },
     "font-body-xxl": {
-      "type": "string",
+      "type": "font-body",
       "category": "font-body",
       "name": "font-body-xxl",
       "value": "18px",

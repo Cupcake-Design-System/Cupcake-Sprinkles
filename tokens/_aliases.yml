@@ -67,45 +67,45 @@ aliases:
   shadow-xl: '0 12px 24px 0 rgba(0, 0, 0, .1)'
 
   # Units
-  spacing-xs: '4px'
-  spacing-sm: '8px'
-  spacing-md: '16px'
-  spacing-lg: '24px'
-  spacing-xl: '32px'
-  spacing-2xl: '48px'
+  spacing-xs: 4px
+  spacing-sm: 8px
+  spacing-md: 16px
+  spacing-lg: 24px
+  spacing-xl: 32px
+  spacing-2xl: 48px
   spacing-base: '{!spacing-md}'
 
   # Font Stack
-  font-stack-sans: '-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto'
-  font-stack-mono: "Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace"
+  font-stack-sans: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto
+  font-stack-mono: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace
 
-  font-weight-bold: "900"
-  font-weight-semibold: "600"
-  font-weight-normal: "400"
-  font-weight-light: "300"
+  font-weight-bold: 900
+  font-weight-semibold: 600
+  font-weight-normal: 400
+  font-weight-light: 300
 
-  font-header-xs : '12px'
-  font-header-sm : '14px'
-  font-header-md : '16px'
-  font-header-lg : '20px'
-  font-header-xl : '24px'
-  font-header-xxl: '36px'
+  font-header-xs : 12px
+  font-header-sm : 14px
+  font-header-md : 16px
+  font-header-lg : 20px
+  font-header-xl : 24px
+  font-header-xxl: 36px
 
-  font-body-xs : '10px'
-  font-body-sm : '11px'
-  font-body-md : '12px'
-  font-body-lg : '14px'
-  font-body-xl : '16px'
-  font-body-xxl: '18px'
+  font-body-xs : 10px
+  font-body-sm : 11px
+  font-body-md : 12px
+  font-body-lg : 14px
+  font-body-xl : 16px
+  font-body-xxl: 18px
 
   line-height-normal   : 'normal'
   line-height-default  : '1.5'
   line-height-condensed: '1.25'
 
-  radius-0     : 'none'
-  radius-square: '0'
-  radius-sm    : '2px'
-  radius-md    : '4px'
-  radius-lg    : '8px'
-  radius-round : '200px'
-  radius-pill  : '100%'
+  radius-0     : none
+  radius-square: 0
+  radius-sm    : 2px
+  radius-md    : 4px
+  radius-lg    : 8px
+  radius-round : 200px
+  radius-pill  : 100%
