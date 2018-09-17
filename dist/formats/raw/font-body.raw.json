@@ -269,40 +269,47 @@
     }
   },
   "props": {
-    "space-xs": {
-      "type": "spacing",
-      "category": "padding",
+    "font-body-xs": {
+      "type": "string",
+      "category": "font-body",
+      "name": "font-body-xs",
+      "value": "10px",
+      "originalValue": "{!font-body-xs}"
+    },
+    "font-body-sm": {
+      "type": "string",
+      "category": "font-body",
+      "name": "font-body-sm",
+      "value": "11px",
+      "originalValue": "{!font-body-sm}"
+    },
+    "font-body-md": {
+      "type": "string",
+      "category": "font-body",
+      "name": "font-body-md",
+      "value": "12px",
+      "originalValue": "{!font-body-md}"
+    },
+    "font-body-lg": {
+      "type": "string",
+      "category": "font-body",
+      "name": "font-body-lg",
+      "value": "14px",
+      "originalValue": "{!font-body-lg}"
+    },
+    "font-body-xl": {
+      "type": "string",
+      "category": "font-body",
+      "name": "font-body-xl",
       "value": "16px",
-      "originalValue": "{!spacing-md}",
-      "name": "space-xs"
+      "originalValue": "{!font-body-xl}"
     },
-    "space-sm": {
-      "type": "spacing",
-      "category": "padding",
-      "value": "8px",
-      "originalValue": "{!spacing-sm}",
-      "name": "space-sm"
-    },
-    "space-md": {
-      "type": "spacing",
-      "category": "padding",
-      "value": "16px",
-      "originalValue": "{!spacing-md}",
-      "name": "space-md"
-    },
-    "space-lg": {
-      "type": "spacing",
-      "category": "padding",
-      "value": "24px",
-      "originalValue": "{!spacing-lg}",
-      "name": "space-lg"
-    },
-    "space-xl": {
-      "type": "spacing",
-      "category": "padding",
-      "value": "32px",
-      "originalValue": "{!spacing-xl}",
-      "name": "space-xl"
+    "font-body-xxl": {
+      "type": "string",
+      "category": "font-body",
+      "name": "font-body-xxl",
+      "value": "18px",
+      "originalValue": "{!font-body-xxl}"
     }
   }
 }

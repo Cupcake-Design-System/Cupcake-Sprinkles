@@ -15,6 +15,9 @@
     "spacing-md": {
       "value": "16px"
     },
+    "font-body-xl": {
+      "value": "16px"
+    },
     "primary": {
       "value": "#1b6ec2"
     },
@@ -38,6 +41,9 @@
     },
     "shadow-md": {
       "value": "0 6px 12px 0 rgba(0, 0, 0, .1)"
+    },
+    "font-body-md": {
+      "value": "12px"
     },
     "warning-5": {
       "value": "#ff922b"
@@ -78,6 +84,9 @@
     "warning-8": {
       "value": "#e8590c"
     },
+    "font-body-sm": {
+      "value": "11px"
+    },
     "danger-1": {
       "value": "#ffe3e3"
     },
@@ -90,6 +99,9 @@
     "shadow-lg": {
       "value": "0 8px 16px 0 rgba(0, 0, 0, .1)"
     },
+    "font-body-lg": {
+      "value": "14px"
+    },
     "warning-9": {
       "value": "#d9480f"
     },
@@ -101,6 +113,9 @@
     },
     "primary-3": {
       "value": "#72c3fc"
+    },
+    "font-body-xs": {
+      "value": "10px"
     },
     "white": {
       "value": "#ffffff"
@@ -119,6 +134,9 @@
     },
     "font-weight-semibold": {
       "value": "600"
+    },
+    "font-header-xxl": {
+      "value": "36px"
     },
     "danger-4": {
       "value": "#ff8787"
@@ -168,11 +186,47 @@
     "danger-9": {
       "value": "#c92a2a"
     },
+    "radius-md": {
+      "value": "4px"
+    },
+    "radius-round": {
+      "value": "200px"
+    },
     "color-link-hover": {
       "value": "#1c7cd6"
     },
+    "radius-pill": {
+      "value": "100%"
+    },
+    "line-height-normal": {
+      "value": "normal"
+    },
+    "line-height-default": {
+      "value": "1.5"
+    },
+    "radius-sm": {
+      "value": "2px"
+    },
+    "radius-0": {
+      "value": "none"
+    },
+    "radius-lg": {
+      "value": "8px"
+    },
     "font-stack-sans": {
       "value": "-apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", Roboto"
+    },
+    "font-header-xl": {
+      "value": "24px"
+    },
+    "radius-square": {
+      "value": "0"
+    },
+    "font-header-md": {
+      "value": "16px"
+    },
+    "line-height-condensed": {
+      "value": "1.25"
     },
     "spacing-base": {
       "value": "16px"
@@ -180,11 +234,20 @@
     "font-weight-bold": {
       "value": "900"
     },
+    "font-header-sm": {
+      "value": "14px"
+    },
     "spacing-2xl": {
       "value": "48px"
     },
     "warning": {
       "value": "#e8590c"
+    },
+    "font-header-lg": {
+      "value": "20px"
+    },
+    "font-header-xs": {
+      "value": "12px"
     },
     "spacing-xl": {
       "value": "32px"
@@ -197,6 +260,9 @@
     },
     "warning-0": {
       "value": "#fff4e6"
+    },
+    "font-body-xxl": {
+      "value": "18px"
     },
     "black": {
       "value": "#000000"

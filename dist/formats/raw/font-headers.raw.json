@@ -269,40 +269,47 @@
     }
   },
   "props": {
-    "space-xs": {
-      "type": "spacing",
-      "category": "padding",
+    "font-header-xs": {
+      "type": "string",
+      "category": "font-header",
+      "name": "font-header-xs",
+      "value": "12px",
+      "originalValue": "{!font-header-xs}"
+    },
+    "font-header-sm": {
+      "type": "string",
+      "category": "font-header",
+      "name": "font-header-sm",
+      "value": "14px",
+      "originalValue": "{!font-header-sm}"
+    },
+    "font-header-md": {
+      "type": "string",
+      "category": "font-header",
+      "name": "font-header-md",
       "value": "16px",
-      "originalValue": "{!spacing-md}",
-      "name": "space-xs"
+      "originalValue": "{!font-header-md}"
     },
-    "space-sm": {
-      "type": "spacing",
-      "category": "padding",
-      "value": "8px",
-      "originalValue": "{!spacing-sm}",
-      "name": "space-sm"
+    "font-header-lg": {
+      "type": "string",
+      "category": "font-header",
+      "name": "font-header-lg",
+      "value": "20px",
+      "originalValue": "{!font-header-lg}"
     },
-    "space-md": {
-      "type": "spacing",
-      "category": "padding",
-      "value": "16px",
-      "originalValue": "{!spacing-md}",
-      "name": "space-md"
-    },
-    "space-lg": {
-      "type": "spacing",
-      "category": "padding",
+    "font-header-xl": {
+      "type": "string",
+      "category": "font-header",
+      "name": "font-header-xl",
       "value": "24px",
-      "originalValue": "{!spacing-lg}",
-      "name": "space-lg"
+      "originalValue": "{!font-header-xl}"
     },
-    "space-xl": {
-      "type": "spacing",
-      "category": "padding",
-      "value": "32px",
-      "originalValue": "{!spacing-xl}",
-      "name": "space-xl"
+    "font-header-xxl": {
+      "type": "string",
+      "category": "font-header",
+      "name": "font-header-xxl",
+      "value": "36px",
+      "originalValue": "{!font-header-xxl}"
     }
   }
 }

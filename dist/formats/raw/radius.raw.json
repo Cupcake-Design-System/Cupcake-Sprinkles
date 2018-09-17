@@ -269,40 +269,54 @@
     }
   },
   "props": {
-    "space-xs": {
-      "type": "spacing",
-      "category": "padding",
-      "value": "16px",
-      "originalValue": "{!spacing-md}",
-      "name": "space-xs"
+    "radius-0": {
+      "type": "radius",
+      "category": "radius",
+      "value": "none",
+      "originalValue": "{!radius-0}",
+      "name": "radius-0"
     },
-    "space-sm": {
-      "type": "spacing",
-      "category": "padding",
+    "radius-square": {
+      "type": "radius",
+      "category": "radius",
+      "value": "0",
+      "originalValue": "{!radius-square}",
+      "name": "radius-square"
+    },
+    "radius-sm": {
+      "type": "radius",
+      "category": "radius",
+      "value": "2px",
+      "originalValue": "{!radius-sm}",
+      "name": "radius-sm"
+    },
+    "radius-md": {
+      "type": "radius",
+      "category": "radius",
+      "value": "4px",
+      "originalValue": "{!radius-md}",
+      "name": "radius-md"
+    },
+    "radius-lg": {
+      "type": "radius",
+      "category": "radius",
       "value": "8px",
-      "originalValue": "{!spacing-sm}",
-      "name": "space-sm"
+      "originalValue": "{!radius-lg}",
+      "name": "radius-lg"
     },
-    "space-md": {
-      "type": "spacing",
-      "category": "padding",
-      "value": "16px",
-      "originalValue": "{!spacing-md}",
-      "name": "space-md"
+    "radius-round": {
+      "type": "radius",
+      "category": "radius",
+      "value": "200px",
+      "originalValue": "{!radius-round}",
+      "name": "radius-round"
     },
-    "space-lg": {
-      "type": "spacing",
-      "category": "padding",
-      "value": "24px",
-      "originalValue": "{!spacing-lg}",
-      "name": "space-lg"
-    },
-    "space-xl": {
-      "type": "spacing",
-      "category": "padding",
-      "value": "32px",
-      "originalValue": "{!spacing-xl}",
-      "name": "space-xl"
+    "radius-pill": {
+      "type": "radius",
+      "category": "radius",
+      "value": "100%",
+      "originalValue": "{!radius-pill}",
+      "name": "radius-pill"
     }
   }
 }

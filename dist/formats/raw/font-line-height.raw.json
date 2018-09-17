@@ -269,40 +269,26 @@
     }
   },
   "props": {
-    "space-xs": {
-      "type": "spacing",
-      "category": "padding",
-      "value": "16px",
-      "originalValue": "{!spacing-md}",
-      "name": "space-xs"
+    "font-line-height-normal": {
+      "type": "string",
+      "category": "line-height",
+      "name": "font-line-height-normal",
+      "value": "normal",
+      "originalValue": "{!line-height-normal}"
     },
-    "space-sm": {
-      "type": "spacing",
-      "category": "padding",
-      "value": "8px",
-      "originalValue": "{!spacing-sm}",
-      "name": "space-sm"
+    "font-line-height-default": {
+      "type": "string",
+      "category": "line-height",
+      "name": "font-line-height-default",
+      "value": "1.5",
+      "originalValue": "{!line-height-default}"
     },
-    "space-md": {
-      "type": "spacing",
-      "category": "padding",
-      "value": "16px",
-      "originalValue": "{!spacing-md}",
-      "name": "space-md"
-    },
-    "space-lg": {
-      "type": "spacing",
-      "category": "padding",
-      "value": "24px",
-      "originalValue": "{!spacing-lg}",
-      "name": "space-lg"
-    },
-    "space-xl": {
-      "type": "spacing",
-      "category": "padding",
-      "value": "32px",
-      "originalValue": "{!spacing-xl}",
-      "name": "space-xl"
+    "font-line-height-condensed": {
+      "type": "string",
+      "category": "line-height",
+      "name": "font-line-height-condensed",
+      "value": "1.25",
+      "originalValue": "{!line-height-condensed}"
     }
   }
 }
