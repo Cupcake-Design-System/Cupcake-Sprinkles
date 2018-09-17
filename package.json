@@ -8,9 +8,9 @@
     ]
   },
   "scripts": {
-    "lint-css": "./node_modules/.bin/stylelint '**/*.css' '**/*.scss'",
+    "lint:css": "stylelint '**/*.scss'  --fix",
     "lint:tokens": "yamllint ./tokens/*.yml",
-    "build": "npm run lint:tokens && gulp"
+    "build": "npm run lint:tokens && gulp && npm run lint:css"
   },
   "devDependencies": {
     "ansi-colors": "^3.0.5",
@@ -23,6 +23,9 @@
     "gulp-rename": "^1.4.0",
     "gulp-theo": "^2.0.0-beta.1",
     "require-dir": "^1.0.0",
+    "stylelint": "^9.5.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-scss": "^3.3.0",
     "theo": "^8.0.0-beta.2",
     "vinyl-paths": "^2.1.0",
     "yaml-lint": "^1.2.4"
