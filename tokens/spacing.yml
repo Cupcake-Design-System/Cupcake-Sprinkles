@@ -1,0 +1,18 @@
+global:
+  type: spacing
+  category: padding
+imports:
+  - ./_aliases.yml
+
+props:
+  space-xs:
+    value: "{!spacing-md}"
+  space-sm:
+    value: "{!spacing-sm}"
+  space-md:
+    value: "{!spacing-md}"
+  space-lg:
+    value: "{!spacing-lg}"
+  space-xl:
+    value: "{!spacing-xl}"
+

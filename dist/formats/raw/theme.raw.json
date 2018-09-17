@@ -1,0 +1,235 @@
+{
+  "aliases": {
+    "warning-1": {
+      "value": "#ffe8cc"
+    },
+    "warning-2": {
+      "value": "#ffd8a8"
+    },
+    "color-link-visited": {
+      "value": "#1862ab"
+    },
+    "shadow-xl": {
+      "value": "0 12px 24px 0 rgba(0, 0, 0, .1)"
+    },
+    "spacing-md": {
+      "value": "16px"
+    },
+    "primary": {
+      "value": "#1b6ec2"
+    },
+    "warning-3": {
+      "value": "#ffc078"
+    },
+    "success": {
+      "value": "#2f9e44"
+    },
+    "danger": {
+      "value": "#e03131"
+    },
+    "warning-4": {
+      "value": "#ffa94d"
+    },
+    "spacing-sm": {
+      "value": "8px"
+    },
+    "color-link": {
+      "value": "#1b6ec2"
+    },
+    "shadow-md": {
+      "value": "0 6px 12px 0 rgba(0, 0, 0, .1)"
+    },
+    "warning-5": {
+      "value": "#ff922b"
+    },
+    "spacing-xs": {
+      "value": "4px"
+    },
+    "warning-6": {
+      "value": "#f76707"
+    },
+    "primary-0": {
+      "value": "#e8f7ff"
+    },
+    "spacing-lg": {
+      "value": "24px"
+    },
+    "success-0": {
+      "value": "#ebfbee"
+    },
+    "warning-7": {
+      "value": "#fd7e14"
+    },
+    "danger-0": {
+      "value": "#fff5f5"
+    },
+    "primary-1": {
+      "value": "#ccedff"
+    },
+    "font-stack-mono": {
+      "value": "Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace"
+    },
+    "success-1": {
+      "value": "#d3f9d8"
+    },
+    "shadow-sm": {
+      "value": "0 4px 8px 0 rgba(0, 0, 0, 0.1)"
+    },
+    "warning-8": {
+      "value": "#e8590c"
+    },
+    "danger-1": {
+      "value": "#ffe3e3"
+    },
+    "primary-2": {
+      "value": "#a3daff"
+    },
+    "success-2": {
+      "value": "#b2f2bb"
+    },
+    "shadow-lg": {
+      "value": "0 8px 16px 0 rgba(0, 0, 0, .1)"
+    },
+    "warning-9": {
+      "value": "#d9480f"
+    },
+    "shadow-xs": {
+      "value": "0 1px 2px 0 rgba(0, 0, 0, .1)"
+    },
+    "danger-2": {
+      "value": "#ffc9c9"
+    },
+    "primary-3": {
+      "value": "#72c3fc"
+    },
+    "white": {
+      "value": "#ffffff"
+    },
+    "success-3": {
+      "value": "#8ce99a"
+    },
+    "danger-3": {
+      "value": "#ffa8a8"
+    },
+    "primary-4": {
+      "value": "#4dadf7"
+    },
+    "success-4": {
+      "value": "#69db7c"
+    },
+    "font-weight-semibold": {
+      "value": "600"
+    },
+    "danger-4": {
+      "value": "#ff8787"
+    },
+    "primary-5": {
+      "value": "#329af0"
+    },
+    "success-5": {
+      "value": "#51cf66"
+    },
+    "danger-5": {
+      "value": "#ff6b6b"
+    },
+    "primary-6": {
+      "value": "#228ae6"
+    },
+    "success-6": {
+      "value": "#37b24d"
+    },
+    "danger-6": {
+      "value": "#f03e3e"
+    },
+    "primary-7": {
+      "value": "#1c7cd6"
+    },
+    "success-7": {
+      "value": "#40c057"
+    },
+    "danger-7": {
+      "value": "#fa5252"
+    },
+    "primary-8": {
+      "value": "#1b6ec2"
+    },
+    "success-8": {
+      "value": "#2f9e44"
+    },
+    "danger-8": {
+      "value": "#e03131"
+    },
+    "primary-9": {
+      "value": "#1862ab"
+    },
+    "success-9": {
+      "value": "#2b8a3e"
+    },
+    "danger-9": {
+      "value": "#c92a2a"
+    },
+    "color-link-hover": {
+      "value": "#1c7cd6"
+    },
+    "font-stack-sans": {
+      "value": "-apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", Roboto"
+    },
+    "spacing-base": {
+      "value": "16px"
+    },
+    "font-weight-bold": {
+      "value": "900"
+    },
+    "spacing-2xl": {
+      "value": "48px"
+    },
+    "warning": {
+      "value": "#e8590c"
+    },
+    "spacing-xl": {
+      "value": "32px"
+    },
+    "font-weight-normal": {
+      "value": "400"
+    },
+    "font-weight-light": {
+      "value": "300"
+    },
+    "warning-0": {
+      "value": "#fff4e6"
+    },
+    "black": {
+      "value": "#000000"
+    }
+  },
+  "props": {
+    "primary": {
+      "type": "color",
+      "category": "background-color",
+      "name": "primary",
+      "value": "#1b6ec2",
+      "originalValue": "{!primary-8}"
+    },
+    "success": {
+      "type": "color",
+      "category": "background-color",
+      "name": "success",
+      "value": "#2f9e44",
+      "originalValue": "{!success-8}"
+    },
+    "warning": {
+      "type": "color",
+      "category": "background-color",
+      "name": "warning",
+      "value": "#e8590c",
+      "originalValue": "{!warning-8}"
+    },
+    "danger": {
+      "type": "color",
+      "category": "background-color",
+      "name": "danger",
+      "value": "#e03131",
+      "originalValue": "{!danger-8}"
+    }
+  }
+}
