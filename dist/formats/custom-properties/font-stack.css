@@ -1,5 +1,4 @@
-
 :root {
-  --font-stack-sans: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
-  --font-stack-mono: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-}
+    --font-family-sans: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+    --font-family-mono: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }

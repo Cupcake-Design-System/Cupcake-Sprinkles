@@ -269,45 +269,45 @@
     }
   },
   "props": {
-    "font-body-xs": {
+    "xs": {
       "type": "font-body",
       "category": "font-body",
-      "name": "font-body-xs",
+      "name": "xs",
       "value": "10px",
       "originalValue": "{!font-body-xs}"
     },
-    "font-body-sm": {
+    "sm": {
       "type": "font-body",
       "category": "font-body",
-      "name": "font-body-sm",
+      "name": "sm",
       "value": "11px",
       "originalValue": "{!font-body-sm}"
     },
-    "font-body-md": {
+    "md": {
       "type": "font-body",
       "category": "font-body",
-      "name": "font-body-md",
+      "name": "md",
       "value": "12px",
       "originalValue": "{!font-body-md}"
     },
-    "font-body-lg": {
+    "lg": {
       "type": "font-body",
       "category": "font-body",
-      "name": "font-body-lg",
+      "name": "lg",
       "value": "14px",
       "originalValue": "{!font-body-lg}"
     },
-    "font-body-xl": {
+    "xl": {
       "type": "font-body",
       "category": "font-body",
-      "name": "font-body-xl",
+      "name": "xl",
       "value": "16px",
       "originalValue": "{!font-body-xl}"
     },
-    "font-body-xxl": {
+    "xxl": {
       "type": "font-body",
       "category": "font-body",
-      "name": "font-body-xxl",
+      "name": "xxl",
       "value": "18px",
       "originalValue": "{!font-body-xxl}"
     }

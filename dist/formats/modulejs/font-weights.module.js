@@ -1,4 +1,4 @@
-export const fontWeightBold = "900";
-export const fontWeightSemibold = "600";
-export const fontWeightNormal = "400";
-export const fontWeightLight = "300";
+export const bold = "900";
+export const semibold = "600";
+export const normal = "400";
+export const light = "300";

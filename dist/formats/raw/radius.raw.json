@@ -269,54 +269,54 @@
     }
   },
   "props": {
-    "radius-0": {
+    "0": {
       "type": "radius",
       "category": "radius",
+      "name": 0,
       "value": "none",
-      "originalValue": "{!radius-0}",
-      "name": "radius-0"
+      "originalValue": "{!radius-0}"
     },
-    "radius-square": {
+    "square": {
       "type": "radius",
       "category": "radius",
+      "name": "square",
       "value": "0",
-      "originalValue": "{!radius-square}",
-      "name": "radius-square"
+      "originalValue": "{!radius-square}"
     },
-    "radius-sm": {
+    "sm": {
       "type": "radius",
       "category": "radius",
+      "name": "sm",
       "value": "2px",
-      "originalValue": "{!radius-sm}",
-      "name": "radius-sm"
+      "originalValue": "{!radius-sm}"
     },
-    "radius-md": {
+    "md": {
       "type": "radius",
       "category": "radius",
+      "name": "md",
       "value": "4px",
-      "originalValue": "{!radius-md}",
-      "name": "radius-md"
+      "originalValue": "{!radius-md}"
     },
-    "radius-lg": {
+    "lg": {
       "type": "radius",
       "category": "radius",
+      "name": "lg",
       "value": "8px",
-      "originalValue": "{!radius-lg}",
-      "name": "radius-lg"
+      "originalValue": "{!radius-lg}"
     },
-    "radius-round": {
+    "round": {
       "type": "radius",
       "category": "radius",
+      "name": "round",
       "value": "200px",
-      "originalValue": "{!radius-round}",
-      "name": "radius-round"
+      "originalValue": "{!radius-round}"
     },
-    "radius-pill": {
+    "pill": {
       "type": "radius",
       "category": "radius",
+      "name": "pill",
       "value": "100%",
-      "originalValue": "{!radius-pill}",
-      "name": "radius-pill"
+      "originalValue": "{!radius-pill}"
     }
   }
 }

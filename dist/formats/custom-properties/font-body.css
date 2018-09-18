@@ -1,9 +1,8 @@
-
 :root {
-  --font-body-xs: 10px;
-  --font-body-sm: 11px;
-  --font-body-md: 12px;
-  --font-body-lg: 14px;
-  --font-body-xl: 16px;
-  --font-body-xxl: 18px;
-}
+    --font-body-xs: 10px;
+    --font-body-sm: 11px;
+    --font-body-md: 12px;
+    --font-body-lg: 14px;
+    --font-body-xl: 16px;
+    --font-body-xxl: 18px;
+  }

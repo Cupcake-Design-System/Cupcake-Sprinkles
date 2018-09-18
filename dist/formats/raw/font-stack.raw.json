@@ -269,17 +269,17 @@
     }
   },
   "props": {
-    "font-stack-sans": {
+    "sans": {
       "type": "font-family",
       "category": "font-family",
-      "name": "font-stack-sans",
+      "name": "sans",
       "value": "-apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", Roboto",
       "originalValue": "{!font-stack-sans}"
     },
-    "font-stack-mono": {
+    "mono": {
       "type": "font-family",
       "category": "font-family",
-      "name": "font-stack-mono",
+      "name": "mono",
       "value": "Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace",
       "originalValue": "{!font-stack-mono}"
     }

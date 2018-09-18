@@ -5,18 +5,25 @@ imports:
   - ./_aliases.yml
 
 props:
-  radius-0:
+
+  - name: 0
     value: "{!radius-0}"
-  radius-square:
+
+  - name: square
     value: "{!radius-square}"
-  radius-sm:
+
+  - name: sm
     value: "{!radius-sm}"
-  radius-md:
+
+  - name: md
     value: "{!radius-md}"
-  radius-lg:
+
+  - name: lg
     value: "{!radius-lg}"
-  radius-round:
+
+  - name: round
     value: "{!radius-round}"
-  radius-pill:
+
+  - name: pill
     value: "{!radius-pill}"
 

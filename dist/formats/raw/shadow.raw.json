@@ -269,40 +269,40 @@
     }
   },
   "props": {
-    "shadow-xs": {
+    "xs": {
       "type": "shadow",
       "category": "shadow",
+      "name": "xs",
       "value": "0 1px 2px 0 rgba(0, 0, 0, .1)",
-      "originalValue": "{!shadow-xs}",
-      "name": "shadow-xs"
+      "originalValue": "{!shadow-xs}"
     },
-    "shadow-sm": {
+    "sm": {
       "type": "shadow",
       "category": "shadow",
+      "name": "sm",
       "value": "0 4px 8px 0 rgba(0, 0, 0, 0.1)",
-      "originalValue": "{!shadow-sm}",
-      "name": "shadow-sm"
+      "originalValue": "{!shadow-sm}"
     },
-    "shadow-md": {
+    "md": {
       "type": "shadow",
       "category": "shadow",
+      "name": "md",
       "value": "0 6px 12px 0 rgba(0, 0, 0, .1)",
-      "originalValue": "{!shadow-md}",
-      "name": "shadow-md"
+      "originalValue": "{!shadow-md}"
     },
-    "shadow-lg": {
+    "lg": {
       "type": "shadow",
       "category": "shadow",
+      "name": "lg",
       "value": "0 8px 16px 0 rgba(0, 0, 0, .1)",
-      "originalValue": "{!shadow-lg}",
-      "name": "shadow-lg"
+      "originalValue": "{!shadow-lg}"
     },
-    "shadow-xl": {
+    "xl": {
       "type": "shadow",
       "category": "shadow",
+      "name": "xl",
       "value": "0 12px 24px 0 rgba(0, 0, 0, .1)",
-      "originalValue": "{!shadow-xl}",
-      "name": "shadow-xl"
+      "originalValue": "{!shadow-xl}"
     }
   }
 }

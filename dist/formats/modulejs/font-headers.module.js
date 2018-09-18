@@ -1,6 +1,6 @@
-export const fontHeaderXs = "12px";
-export const fontHeaderSm = "14px";
-export const fontHeaderMd = "16px";
-export const fontHeaderLg = "20px";
-export const fontHeaderXl = "24px";
-export const fontHeaderXxl = "36px";
+export const xs = "12px";
+export const sm = "14px";
+export const md = "16px";
+export const lg = "20px";
+export const xl = "24px";
+export const xxl = "36px";

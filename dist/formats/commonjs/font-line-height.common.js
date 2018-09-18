@@ -1,5 +1,5 @@
 module.exports = {
-  fontLineHeightNormal: "normal",
-  fontLineHeightDefault: "1.5",
-  fontLineHeightCondensed: "1.25",
+  normal: "normal",
+  default: "1.5",
+  condensed: "1.25",
 };

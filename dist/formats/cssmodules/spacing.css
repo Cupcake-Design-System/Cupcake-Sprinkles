@@ -1,6 +1,6 @@
 
-@value space-xs: 4px;
-@value space-sm: 8px;
-@value space-md: 16px;
-@value space-lg: 24px;
-@value space-xl: 32px;
+@value xs: 4px;
+@value sm: 8px;
+@value md: 16px;
+@value lg: 24px;
+@value xl: 32px;

@@ -269,40 +269,40 @@
     }
   },
   "props": {
-    "space-xs": {
+    "xs": {
       "type": "spacing",
       "category": "spacing",
+      "name": "xs",
       "value": "4px",
-      "originalValue": "{!spacing-xs}",
-      "name": "space-xs"
+      "originalValue": "{!spacing-xs}"
     },
-    "space-sm": {
+    "sm": {
       "type": "spacing",
       "category": "spacing",
+      "name": "sm",
       "value": "8px",
-      "originalValue": "{!spacing-sm}",
-      "name": "space-sm"
+      "originalValue": "{!spacing-sm}"
     },
-    "space-md": {
+    "md": {
       "type": "spacing",
       "category": "spacing",
+      "name": "md",
       "value": "16px",
-      "originalValue": "{!spacing-md}",
-      "name": "space-md"
+      "originalValue": "{!spacing-md}"
     },
-    "space-lg": {
+    "lg": {
       "type": "spacing",
       "category": "spacing",
+      "name": "lg",
       "value": "24px",
-      "originalValue": "{!spacing-lg}",
-      "name": "space-lg"
+      "originalValue": "{!spacing-lg}"
     },
-    "space-xl": {
+    "xl": {
       "type": "spacing",
       "category": "spacing",
+      "name": "xl",
       "value": "32px",
-      "originalValue": "{!spacing-xl}",
-      "name": "space-xl"
+      "originalValue": "{!spacing-xl}"
     }
   }
 }

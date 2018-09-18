@@ -5,14 +5,19 @@ imports:
   - ./_aliases.yml
 
 props:
-  space-xs:
+
+  - name: xs
     value: "{!spacing-xs}"
-  space-sm:
+
+  - name: sm
     value: "{!spacing-sm}"
-  space-md:
+
+  - name: md
     value: "{!spacing-md}"
-  space-lg:
+
+  - name: lg
     value: "{!spacing-lg}"
-  space-xl:
+
+  - name: xl
     value: "{!spacing-xl}"
 

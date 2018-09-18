@@ -1,7 +1,7 @@
 
-@value font-header-xs: 12px;
-@value font-header-sm: 14px;
-@value font-header-md: 16px;
-@value font-header-lg: 20px;
-@value font-header-xl: 24px;
-@value font-header-xxl: 36px;
+@value xs: 12px;
+@value sm: 14px;
+@value md: 16px;
+@value lg: 20px;
+@value xl: 24px;
+@value xxl: 36px;

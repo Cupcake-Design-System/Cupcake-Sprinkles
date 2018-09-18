@@ -1,8 +1,8 @@
 module.exports = {
-  fontHeaderXs: "12px",
-  fontHeaderSm: "14px",
-  fontHeaderMd: "16px",
-  fontHeaderLg: "20px",
-  fontHeaderXl: "24px",
-  fontHeaderXxl: "36px",
+  xs: "12px",
+  sm: "14px",
+  md: "16px",
+  lg: "20px",
+  xl: "24px",
+  xxl: "36px",
 };

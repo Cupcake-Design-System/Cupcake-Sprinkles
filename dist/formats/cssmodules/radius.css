@@ -1,8 +1,8 @@
 
-@value radius-0: none;
-@value radius-square: 0;
-@value radius-sm: 2px;
-@value radius-md: 4px;
-@value radius-lg: 8px;
-@value radius-round: 200px;
-@value radius-pill: 100%;
+@value 0: none;
+@value square: 0;
+@value sm: 2px;
+@value md: 4px;
+@value lg: 8px;
+@value round: 200px;
+@value pill: 100%;

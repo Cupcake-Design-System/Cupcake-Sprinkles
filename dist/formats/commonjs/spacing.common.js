@@ -1,7 +1,7 @@
 module.exports = {
-  spaceXs: "4px",
-  spaceSm: "8px",
-  spaceMd: "16px",
-  spaceLg: "24px",
-  spaceXl: "32px",
+  xs: "4px",
+  sm: "8px",
+  md: "16px",
+  lg: "24px",
+  xl: "32px",
 };

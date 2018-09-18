@@ -37,9 +37,23 @@ theo.registerFormat("deep", result => {
 theo.registerFormat('map.variables.scss', `
 $\{{stem meta.file}}: (
   {{#each props as |prop|}}
-    {{kebabcase prop.name}}: $\{{kebabcase prop.name}},
+    {{kebabcase prop.name}}: $\{{kebabcase prop.type}}-{{kebabcase prop.name}},
   {{/each}}
   );`);
+
+  theo.registerFormat('default', `
+  {{#each props as |prop|}}
+  $\{{kebabcase prop.type}}-{{kebabcase prop.name}}: {{#eq prop.type "string"}}"{{/eq}}{{{prop.value}}}{{#eq prop.type "string"}}"{{/eq}} !default;
+{{/each}}`);
+  
+theo.registerFormat('root', `:root {
+  {{#each props as |prop|}}
+    {{#if prop.comment}}
+    {{{trimLeft (indent (comment (trim prop.comment)))}}}
+    {{/if}}
+    --{{kebabcase prop.type}}-{{kebabcase prop.name}}: {{#eq prop.type "string"}}"{{/eq}}{{{prop.value}}}{{#eq prop.type "string"}}"{{/eq}};
+  {{/each}}
+  }`);
 
 
 gulp.task('clean', () => del('./dist'));

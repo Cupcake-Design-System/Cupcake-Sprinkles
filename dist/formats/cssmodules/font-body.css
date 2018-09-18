@@ -1,7 +1,7 @@
 
-@value font-body-xs: 10px;
-@value font-body-sm: 11px;
-@value font-body-md: 12px;
-@value font-body-lg: 14px;
-@value font-body-xl: 16px;
-@value font-body-xxl: 18px;
+@value xs: 10px;
+@value sm: 11px;
+@value md: 12px;
+@value lg: 14px;
+@value xl: 16px;
+@value xxl: 18px;

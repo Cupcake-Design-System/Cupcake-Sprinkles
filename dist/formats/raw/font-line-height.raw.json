@@ -269,24 +269,24 @@
     }
   },
   "props": {
-    "font-line-height-normal": {
+    "normal": {
       "type": "line-height",
       "category": "line-height",
-      "name": "font-line-height-normal",
+      "name": "normal",
       "value": "normal",
       "originalValue": "{!line-height-normal}"
     },
-    "font-line-height-default": {
+    "default": {
       "type": "line-height",
       "category": "line-height",
-      "name": "font-line-height-default",
+      "name": "default",
       "value": "1.5",
       "originalValue": "{!line-height-default}"
     },
-    "font-line-height-condensed": {
+    "condensed": {
       "type": "line-height",
       "category": "line-height",
-      "name": "font-line-height-condensed",
+      "name": "condensed",
       "value": "1.25",
       "originalValue": "{!line-height-condensed}"
     }

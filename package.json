@@ -8,9 +8,10 @@
     ]
   },
   "scripts": {
-    "lint:css": "stylelint '**/*.scss'  --fix",
+    "lint:tokens:css": "stylelint 'dist/*.scss'  --fix",
     "lint:tokens": "yamllint ./tokens/*.yml",
-    "build": "npm run lint:tokens && gulp && npm run lint:css"
+    "default": "npm run lint:tokens && gulp && npm run lint:tokens:css",
+    "extended": "npm run lint:tokens && gulp extended && npm run lint:tokens:css"
   },
   "devDependencies": {
     "ansi-colors": "^3.0.5",
@@ -20,6 +21,8 @@
     "babel-preset-env": "^1.7.0",
     "del": "^3.0.0",
     "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^2.0.5",
     "gulp-rename": "^1.4.0",
     "gulp-theo": "^2.0.0-beta.1",
     "require-dir": "^1.0.0",

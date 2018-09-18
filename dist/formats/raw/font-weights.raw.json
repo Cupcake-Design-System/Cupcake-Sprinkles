@@ -269,31 +269,31 @@
     }
   },
   "props": {
-    "font-weight-bold": {
+    "bold": {
       "type": "font-weight",
       "category": "font-weight",
-      "name": "font-weight-bold",
+      "name": "bold",
       "value": "900",
       "originalValue": "{!font-weight-bold}"
     },
-    "font-weight-semibold": {
+    "semibold": {
       "type": "font-weight",
       "category": "font-weight",
-      "name": "font-weight-semibold",
+      "name": "semibold",
       "value": "600",
       "originalValue": "{!font-weight-semibold}"
     },
-    "font-weight-normal": {
+    "normal": {
       "type": "font-weight",
       "category": "font-weight",
-      "name": "font-weight-normal",
+      "name": "normal",
       "value": "400",
       "originalValue": "{!font-weight-normal}"
     },
-    "font-weight-light": {
+    "light": {
       "type": "font-weight",
       "category": "font-weight",
-      "name": "font-weight-light",
+      "name": "light",
       "value": "300",
       "originalValue": "{!font-weight-light}"
     }

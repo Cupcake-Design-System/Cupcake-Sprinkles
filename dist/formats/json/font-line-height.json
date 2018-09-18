@@ -1,5 +1,5 @@
 {
-  "font-line-height-normal": "normal",
-  "font-line-height-default": "1.5",
-  "font-line-height-condensed": "1.25"
+  "normal": "normal",
+  "default": "1.5",
+  "condensed": "1.25"
 }

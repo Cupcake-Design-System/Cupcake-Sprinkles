@@ -14,10 +14,11 @@ gulp.task('custom-properties', (done) => {
       ])
           .pipe(gulpTheo({
               transform: { includeMeta: true },
-              format: { type: 'custom-properties.css' }
+              format: { type: 'root' }
           }))
           .pipe(vinylPaths(del))
           .pipe(rename(function (opt) {
+            opt.extname = ".css";
             opt.basename = opt.basename.replace(/.custom-properties/, '');
             return opt;
           }))

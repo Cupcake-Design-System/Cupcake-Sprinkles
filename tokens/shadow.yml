@@ -1,17 +1,22 @@
 global:
-  type: "shadow"
-  category: "shadow"
+  type: shadow
+  category: shadow
 imports:
   - ./_aliases.yml
 
 props:
-  shadow-xs:
+
+  - name: xs
     value: '{!shadow-xs}'
-  shadow-sm:
+
+  - name: sm
     value: '{!shadow-sm}'
-  shadow-md:
+
+  - name: md
     value: '{!shadow-md}'
-  shadow-lg:
+
+  - name: lg
     value: '{!shadow-lg}'
-  shadow-xl:
+
+  - name: xl
     value: '{!shadow-xl}'

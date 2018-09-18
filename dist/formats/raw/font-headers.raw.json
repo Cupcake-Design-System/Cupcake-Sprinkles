@@ -269,45 +269,45 @@
     }
   },
   "props": {
-    "font-header-xs": {
+    "xs": {
       "type": "font-header",
       "category": "font-header",
-      "name": "font-header-xs",
+      "name": "xs",
       "value": "12px",
       "originalValue": "{!font-header-xs}"
     },
-    "font-header-sm": {
+    "sm": {
       "type": "font-header",
       "category": "font-header",
-      "name": "font-header-sm",
+      "name": "sm",
       "value": "14px",
       "originalValue": "{!font-header-sm}"
     },
-    "font-header-md": {
+    "md": {
       "type": "font-header",
       "category": "font-header",
-      "name": "font-header-md",
+      "name": "md",
       "value": "16px",
       "originalValue": "{!font-header-md}"
     },
-    "font-header-lg": {
+    "lg": {
       "type": "font-header",
       "category": "font-header",
-      "name": "font-header-lg",
+      "name": "lg",
       "value": "20px",
       "originalValue": "{!font-header-lg}"
     },
-    "font-header-xl": {
+    "xl": {
       "type": "font-header",
       "category": "font-header",
-      "name": "font-header-xl",
+      "name": "xl",
       "value": "24px",
       "originalValue": "{!font-header-xl}"
     },
-    "font-header-xxl": {
+    "xxl": {
       "type": "font-header",
       "category": "font-header",
-      "name": "font-header-xxl",
+      "name": "xxl",
       "value": "36px",
       "originalValue": "{!font-header-xxl}"
     }

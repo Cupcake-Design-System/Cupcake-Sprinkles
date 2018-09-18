@@ -8,11 +8,18 @@ console.log(c.yellow(`Building Cupcake v${config.version} Tokens 🎂`));
 
 requiredir('./gulp');
 
+
 gulp.task(
   'default',
-  gulp.series('clean', 'core:tokens', 'custom-properties', 'cssmodules', 'commonjs', 'json', 'modulejs', 'raw', (done) => {
+  gulp.series('clean:tokens', 'tokens:colors-map', 'tokens:map', 'tokens:core', (done) => {
     done();
   })
 );
 
 
+gulp.task(
+  'extended',
+  gulp.series('clean:tokens', 'default', 'custom-properties', 'cssmodules', 'commonjs', 'json', 'modulejs', 'raw', (done) => {
+    done();
+  })
+);
