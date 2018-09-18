@@ -1,6 +1,8 @@
 const gulp = require('gulp');
 const theo = require('theo');
 const del = require('del');
+const Immutable = require("immutable");
+const _ = require("lodash");
 
 //Custom formatter for nested map
 theo.registerFormat("deep", result => {
@@ -45,8 +47,8 @@ $\{{stem meta.file}}: (
   {{#each props as |prop|}}
   $\{{kebabcase prop.type}}-{{kebabcase prop.name}}: {{#eq prop.type "string"}}"{{/eq}}{{{prop.value}}}{{#eq prop.type "string"}}"{{/eq}} !default;
 {{/each}}`);
-  
-theo.registerFormat('root', `:root {
+
+theo.registerFormat('cssCustomProps', `:root {
   {{#each props as |prop|}}
     {{#if prop.comment}}
     {{{trimLeft (indent (comment (trim prop.comment)))}}}
@@ -54,6 +56,45 @@ theo.registerFormat('root', `:root {
     --{{kebabcase prop.type}}-{{kebabcase prop.name}}: {{#eq prop.type "string"}}"{{/eq}}{{{prop.value}}}{{#eq prop.type "string"}}"{{/eq}};
   {{/each}}
   }`);
+
+theo.registerFormat('cssModules', `
+{{#each props as |prop|}}
+  {{#if prop.comment~}}
+  {{{trimLeft (indent (comment (trim prop.comment)))}}}
+  {{/if~}}
+  @value {{kebabcase prop.type}}{{kebabcase prop.name}}: {{#eq prop.type "string"}}"{{/eq}}{{{prop.value}}}{{#eq prop.type "string"}}"{{/eq}};
+{{/each}}`);
+
+
+theo.registerFormat("module", def => {
+  return def
+  .get("props")
+  .map(prop => {
+    let result = Immutable.List();
+    if (prop.has("comment")) {
+      result = result.push(comment(prop.get("comment").trim()));
+    }
+    const j = _.camelCase(prop.get("type"));
+    const k = _.capitalize(prop.get("name"));
+    const v = JSON.stringify(prop.get("value"));
+    result = result.push(`export const ${j}${k} = ${v};`);
+    return result;
+  })
+  .flatten(1)
+  .toArray()
+  .join("\n");
+});
+;
+
+theo.registerFormat('JSON', `{
+  {{#each props as |prop|}}
+    {{#if prop.comment}}
+    {{{trimLeft (indent (comment (trim prop.comment)))}}}
+    {{/if}}
+    "{{kebabcase prop.type}}-{{kebabcase prop.name}}": "{{{prop.value}}}",
+  {{/each}}
+  }`);
+
 
 
 gulp.task('clean', () => del('./dist'));

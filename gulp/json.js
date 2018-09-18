@@ -14,10 +14,11 @@ gulp.task('json', (done) => {
       ])
           .pipe(gulpTheo({
               transform: { includeMeta: true },
-              format: { type: 'json' }
+              format: { type: 'JSON' }
           }))
           .pipe(vinylPaths(del))
           .pipe(rename(function (opt) {
+            opt.extname = ".json";
             opt.basename = opt.basename.replace(/.js/, '');
             return opt;
           }))

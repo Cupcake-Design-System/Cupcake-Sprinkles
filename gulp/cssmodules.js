@@ -14,10 +14,11 @@ gulp.task('cssmodules', (done) => {
       ])
           .pipe(gulpTheo({
               transform: { includeMeta: true },
-              format: { type: 'cssmodules.css' }
+              format: { type: 'cssModules' }
           }))
           .pipe(vinylPaths(del))
           .pipe(rename(function (opt) {
+            opt.extname = ".css";
             opt.basename = opt.basename.replace(/.cssmodules/, '');
             return opt;
           }))

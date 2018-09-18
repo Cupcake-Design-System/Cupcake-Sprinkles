@@ -57,6 +57,10 @@ $font-body-xl: 16px !default;
 $font-body-xxl: 18px !default;
 
 
+$font-family-sans: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto !default;
+$font-family-mono: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !default;
+
+
 $font-header-xs: 12px !default;
 $font-header-sm: 14px !default;
 $font-header-md: 16px !default;
@@ -68,10 +72,6 @@ $font-header-xxl: 36px !default;
 $line-height-normal: normal !default;
 $line-height-default: 1.5 !default;
 $line-height-condensed: 1.25 !default;
-
-
-$font-family-sans: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto !default;
-$font-family-mono: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !default;
 
 
 $font-weight-bold: 900 !default;

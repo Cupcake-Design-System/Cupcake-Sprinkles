@@ -8,6 +8,11 @@ $font-body: (
   xxl: $font-body-xxl,
 );
 
+$font-family: (
+  sans: $font-family-sans,
+  mono: $font-family-mono,
+);
+
 $font-headers: (
   xs: $font-header-xs,
   sm: $font-header-sm,
@@ -21,11 +26,6 @@ $font-line-height: (
   normal: $line-height-normal,
   default: $line-height-default,
   condensed: $line-height-condensed,
-);
-
-$font-stack: (
-  sans: $font-family-sans,
-  mono: $font-family-mono,
 );
 
 $font-weights: (

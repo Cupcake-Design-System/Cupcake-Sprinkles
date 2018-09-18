@@ -6,7 +6,6 @@ import rename from 'gulp-rename';
 import del from 'del';
 import vinylPaths from 'vinyl-paths';
 import concat from 'gulp-concat';
-import header from 'gulp-header';
 
 
 //Custom formatter for nested map
@@ -52,7 +51,7 @@ $\{{stem meta.file}}: (
   {{#each props as |prop|}}
   $\{{kebabcase prop.type}}-{{kebabcase prop.name}}: {{#eq prop.type "string"}}"{{/eq}}{{{prop.value}}}{{#eq prop.type "string"}}"{{/eq}} !default;
 {{/each}}`);
-  
+
 
 
 // This runs the task over the files making a map based on default variables
@@ -112,7 +111,6 @@ gulp.task('tokens:colors-map', (done) => {
               path.basename = 'colors-map';
               path.extname = ".scss";
           }))
-          .pipe(header('@import "index.scss"'))
           .pipe(gulp.dest(config.tokens.output))
   done();
 });

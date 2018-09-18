@@ -5,7 +5,6 @@ import rename from 'gulp-rename';
 import del from 'del';
 import vinylPaths from 'vinyl-paths';
 
-
 gulp.task('modulejs', (done) => {
       gulp.src([
         config.tokens.input + '/*.yml',
@@ -14,11 +13,12 @@ gulp.task('modulejs', (done) => {
       ])
           .pipe(gulpTheo({
               transform: { includeMeta: true },
-              format: { type: 'module.js' }
+              format: { type: 'module' }
           }))
           .pipe(vinylPaths(del))
           .pipe(rename(function (opt) {
-            opt.basename = opt.basename.replace(/.js/, '');
+            opt.extname = ".js";
+            opt.basename = opt.basename.replace(/.module/, '');
             return opt;
           }))
           .pipe(gulp.dest(config.tokens.formats + '/modulejs'))

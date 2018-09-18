@@ -3,7 +3,7 @@ imports:
   - ./font-body.yml
   - ./font-headers.yml
   - ./font-line-height.yml
-  - ./font-stack.yml
+  - ./font-family.yml
   - ./font-weights.yml
   - ./radius.yml
   - ./shadow.yml

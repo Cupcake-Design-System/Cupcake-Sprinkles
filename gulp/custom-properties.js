@@ -14,7 +14,7 @@ gulp.task('custom-properties', (done) => {
       ])
           .pipe(gulpTheo({
               transform: { includeMeta: true },
-              format: { type: 'root' }
+              format: { type: 'cssCustomProps' }
           }))
           .pipe(vinylPaths(del))
           .pipe(rename(function (opt) {
