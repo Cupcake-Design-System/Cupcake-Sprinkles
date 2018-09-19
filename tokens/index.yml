@@ -1,5 +1,5 @@
 imports:
-  - ./colors.yml
+  - ./color.yml
   - ./font-body.yml
   - ./font-headers.yml
   - ./line-height.yml

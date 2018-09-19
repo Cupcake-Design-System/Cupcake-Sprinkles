@@ -108,6 +108,26 @@ props:
   - name: danger-9
     value: "{!danger-9}"
 
+  - name: gray-0
+    value: "{!gray-0}"
+  - name: gray-1
+    value: "{!gray-1}"
+  - name: gray-2
+    value: "{!gray-2}"
+  - name: gray-3
+    value: "{!gray-3}"
+  - name: gray-4
+    value: "{!gray-4}"
+  - name: gray-5
+    value: "{!gray-5}"
+  - name: gray-7
+    value: "{!gray-7}"
+  - name: gray-6
+    value: "{!gray-6}"
+  - name: gray-8
+    value: "{!gray-8}"
+  - name: gray-9
+    value: "{!gray-9}"
 
   # Link Colors
 

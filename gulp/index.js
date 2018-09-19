@@ -26,7 +26,7 @@ gulp.task('tokens:map', (done) => {
         '!./tokens/index.yml',
         '!./tokens/_aliases.yml',
         '!./tokens/colors-map.yml',
-        '!./tokens/colors.yml'
+        '!./tokens/color.yml'
       ])
           .pipe(gulpTheo({
               transform: { includeMeta: true },

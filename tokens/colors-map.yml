@@ -58,4 +58,17 @@ props:
       8: "{!danger-8}"
       9: "{!danger-9}"
 
+  - name: gray
+    value:
+      0: "{!gray-0}"
+      1: "{!gray-1}"
+      2: "{!gray-2}"
+      3: "{!gray-3}"
+      4: "{!gray-4}"
+      5: "{!gray-5}"
+      7: "{!gray-7}"
+      6: "{!gray-6}"
+      8: "{!gray-8}"
+      9: "{!gray-9}"
+
 
