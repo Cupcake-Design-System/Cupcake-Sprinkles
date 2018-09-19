@@ -1,11 +1,14 @@
 {
   "name": "@cupcake-ds/cupcake-sprinkles",
-  "version": "0.1.0",
+  "version": "0.0.9",
   "description": "Cupcake Design System tokens",
   "babel": {
     "presets": [
       "env"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "lint:tokens:css": "stylelint 'dist/*.scss'  --fix",
