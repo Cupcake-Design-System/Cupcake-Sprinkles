@@ -72,7 +72,7 @@ gulp.task('tokens:map', (done) => {
             opt.basename = opt.basename.replace(/.map.variables/, '');
             return opt;
           }))
-          .pipe(concat('maps.scss'))
+          .pipe(concat('_maps.scss'))
           .pipe(gulp.dest(config.tokens.output))
   done();
 });
@@ -95,7 +95,7 @@ gulp.task('tokens:core', (done) => {
         opt.basename = opt.basename.replace(/.default/, '');
         return opt;
       }))
-      .pipe(concat('index.scss'))
+      .pipe(concat('_variables.scss'))
       .pipe(gulp.dest(config.tokens.output))
 done();
 });
@@ -108,7 +108,7 @@ gulp.task('tokens:colors-map', (done) => {
               format: { type: 'deep' }
           }))
           .pipe(rename(function(path) {
-              path.basename = 'colors-map';
+              path.basename = '_colors-map';
               path.extname = ".scss";
           }))
           .pipe(gulp.dest(config.tokens.output))
@@ -122,4 +122,11 @@ gulp.task('clean:tokens', (done) => {
   });
 });
 
+
+gulp.task('tokens:merge', (done) => {
+  gulp.src(['./dist/_variables.scss', './dist/_colors-map.scss', './dist/_maps.scss'])
+      .pipe(concat('index.scss'))
+      .pipe(gulp.dest(config.tokens.output))
+done();
+});
 

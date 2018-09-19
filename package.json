@@ -10,7 +10,8 @@
   "scripts": {
     "lint:tokens:css": "stylelint 'dist/*.scss'  --fix",
     "lint:tokens": "yamllint ./tokens/*.yml",
-    "default": "npm run lint:tokens && gulp && npm run lint:tokens:css",
+    "merge:tokens": "gulp tokens:merge",
+    "default": "npm run lint:tokens && gulp && npm run merge:tokens && npm run lint:tokens:css",
     "extended": "npm run lint:tokens && gulp extended && npm run lint:tokens:css"
   },
   "devDependencies": {
