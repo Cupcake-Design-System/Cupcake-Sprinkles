@@ -1,6 +1,6 @@
 {
   "name": "@cupcake-ds/cupcake-sprinkles",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Cupcake Design System tokens",
   "babel": {
     "presets": [
