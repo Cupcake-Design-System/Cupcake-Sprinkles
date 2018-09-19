@@ -17,6 +17,7 @@
       "block-closing-brace-newline-after": ["always", {
           "ignoreAtRules": ["if", "else", "elseif"]
       }],
+      "comment-empty-line-before": null,
       "color-hex-length": "long",
       "declaration-block-semicolon-newline-after": "always",
       "declaration-property-value-blacklist": {

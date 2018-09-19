@@ -6,7 +6,17 @@ import rename from 'gulp-rename';
 import del from 'del';
 import vinylPaths from 'vinyl-paths';
 import concat from 'gulp-concat';
+import addHeader from 'gulp-header';
+import pkg from '../package.json';
 
+var metaHeader = `
+/* ----------------------- */
+/* 🎂 Cupcake Sprinkles 🎂 */
+/* imported from: ${pkg.name} version: ${pkg.version} */
+/* DO NOT MODIFY THIS FILE DIRECTLY! */
+/* ALL VALUES COME FROM THE ${pkg.name} PACKAGE */
+/* ----------------------- */
+`;
 
 //Custom formatter for nested map
 theo.registerFormat("deep", result => {
@@ -126,6 +136,7 @@ gulp.task('clean:tokens', (done) => {
 gulp.task('tokens:merge', (done) => {
   gulp.src(['./dist/_variables.scss', './dist/_colors-map.scss', './dist/_maps.scss'])
       .pipe(concat('index.scss'))
+      .pipe(addHeader(metaHeader))
       .pipe(gulp.dest(config.tokens.output))
 done();
 });
