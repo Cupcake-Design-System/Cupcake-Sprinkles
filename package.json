@@ -9,6 +9,7 @@
   },
   "scripts": {
     "lint:tokens:css": "stylelint 'dist/*.scss'  --fix",
+    "release": "release-it",
     "lint:tokens": "yamllint ./tokens/*.yml",
     "merge:tokens": "gulp tokens:merge",
     "default": "npm run lint:tokens && gulp && npm run merge:tokens && npm run lint:tokens:css",
@@ -25,7 +26,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.4.0",
     "gulp-theo": "^2.0.0-beta.1",
-    "np": "*",
+    "release-it": "^7.6.1",
     "require-dir": "^1.0.0",
     "stylelint": "^9.5.0",
     "stylelint-config-standard": "^18.2.0",
