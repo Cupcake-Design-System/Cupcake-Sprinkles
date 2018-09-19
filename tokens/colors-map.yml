@@ -1,5 +1,5 @@
 global:
-  type: colors
+  type: color
   category: color
 
 imports:
