@@ -1,5 +1,5 @@
 global:
-  type: palette
+  type: colors
   category: color
 
 imports:

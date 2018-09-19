@@ -111,11 +111,7 @@ props:
 
   # Link Colors
 
-  - name: color-link
+  - name: link
     value: '{!color-link}'
-    meta:
-      friendlyName: Link
-  - name: color-link-hover
+  - name: link-hover
     value: '{!color-link-hover}'
-    meta:
-      friendlyName: Link:Hover

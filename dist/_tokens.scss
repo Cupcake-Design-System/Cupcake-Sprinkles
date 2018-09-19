@@ -1,7 +1,7 @@
 
 /* ----------------------- */
 /* 🎂 Cupcake Sprinkles 🎂 */
-/* imported from: @cupcake-ds/cupcake-sprinkles version: 0.1.4 */
+/* imported from: @cupcake-ds/cupcake-sprinkles version: 0.1.5 */
 /* DO NOT MODIFY THIS FILE DIRECTLY! */
 /* ALL VALUES COME FROM THE @cupcake-ds/cupcake-sprinkles PACKAGE */
 /* ----------------------- */
@@ -52,8 +52,8 @@ $color-danger-7: #fa5252 !default;
 $color-danger-6: #f03e3e !default;
 $color-danger-8: #e03131 !default;
 $color-danger-9: #c92a2a !default;
-$color-color-link: #1b6ec2 !default;
-$color-color-link-hover: #1c7cd6 !default;
+$color-link: #1b6ec2 !default;
+$color-link-hover: #1c7cd6 !default;
 
 
 $font-body-xs: 10px !default;
@@ -76,15 +76,15 @@ $font-header-xl: 24px !default;
 $font-header-xxl: 36px !default;
 
 
-$line-height-normal: normal !default;
-$line-height-default: 1.5 !default;
-$line-height-condensed: 1.25 !default;
-
-
 $font-weight-bold: 900 !default;
 $font-weight-semibold: 600 !default;
 $font-weight-normal: 400 !default;
 $font-weight-light: 300 !default;
+
+
+$line-height-normal: normal !default;
+$line-height-default: 1.5 !default;
+$line-height-condensed: 1.25 !default;
 
 
 $radius-0: none !default;
@@ -103,11 +103,13 @@ $shadow-lg: 0 8px 16px 0 rgba(0, 0, 0, .1) !default;
 $shadow-xl: 0 12px 24px 0 rgba(0, 0, 0, .1) !default;
 
 
-$spacing-xs: 4px !default;
-$spacing-sm: 8px !default;
-$spacing-md: 16px !default;
-$spacing-lg: 24px !default;
-$spacing-xl: 32px !default;
+$space-0: 0 !default;
+$space-xxs: 2px !default;
+$space-xs: 4px !default;
+$space-sm: 8px !default;
+$space-md: 16px !default;
+$space-lg: 24px !default;
+$space-xl: 32px !default;
 
 
 $color-primary: #1b6ec2 !default;
@@ -116,58 +118,58 @@ $color-warning: #e8590c !default;
 $color-danger: #e03131 !default;
 
 
-$color-palette: (
+$colors: (
   
   'danger': (
-    0: $danger-0,
-    1: $danger-1,
-    2: $danger-2,
-    3: $danger-3,
-    4: $danger-4,
-    5: $danger-5,
-    6: $danger-6,
-    7: $danger-7,
-    8: $danger-8,
-    9: $danger-9
+    0: $colors-danger-0,
+    1: $colors-danger-1,
+    2: $colors-danger-2,
+    3: $colors-danger-3,
+    4: $colors-danger-4,
+    5: $colors-danger-5,
+    6: $colors-danger-6,
+    7: $colors-danger-7,
+    8: $colors-danger-8,
+    9: $colors-danger-9
   ),
 
   'primary': (
-    0: $primary-0,
-    1: $primary-1,
-    2: $primary-2,
-    3: $primary-3,
-    4: $primary-4,
-    5: $primary-5,
-    6: $primary-6,
-    7: $primary-7,
-    8: $primary-8,
-    9: $primary-9
+    0: $colors-primary-0,
+    1: $colors-primary-1,
+    2: $colors-primary-2,
+    3: $colors-primary-3,
+    4: $colors-primary-4,
+    5: $colors-primary-5,
+    6: $colors-primary-6,
+    7: $colors-primary-7,
+    8: $colors-primary-8,
+    9: $colors-primary-9
   ),
 
   'success': (
-    0: $success-0,
-    1: $success-1,
-    2: $success-2,
-    3: $success-3,
-    4: $success-4,
-    5: $success-5,
-    6: $success-6,
-    7: $success-7,
-    8: $success-8,
-    9: $success-9
+    0: $colors-success-0,
+    1: $colors-success-1,
+    2: $colors-success-2,
+    3: $colors-success-3,
+    4: $colors-success-4,
+    5: $colors-success-5,
+    6: $colors-success-6,
+    7: $colors-success-7,
+    8: $colors-success-8,
+    9: $colors-success-9
   ),
 
   'warning': (
-    0: $warning-0,
-    1: $warning-1,
-    2: $warning-2,
-    3: $warning-3,
-    4: $warning-4,
-    5: $warning-5,
-    6: $warning-6,
-    7: $warning-7,
-    8: $warning-8,
-    9: $warning-9
+    0: $colors-warning-0,
+    1: $colors-warning-1,
+    2: $colors-warning-2,
+    3: $colors-warning-3,
+    4: $colors-warning-4,
+    5: $colors-warning-5,
+    6: $colors-warning-6,
+    7: $colors-warning-7,
+    8: $colors-warning-8,
+    9: $colors-warning-9
   ),
 );
   
@@ -195,17 +197,17 @@ $font-headers: (
   xxl: $font-header-xxl,
 );
 
-$font-line-height: (
-  normal: $line-height-normal,
-  default: $line-height-default,
-  condensed: $line-height-condensed,
-);
-
-$font-weights: (
+$font-weight: (
   bold: $font-weight-bold,
   semibold: $font-weight-semibold,
   normal: $font-weight-normal,
   light: $font-weight-light,
+);
+
+$line-height: (
+  normal: $line-height-normal,
+  default: $line-height-default,
+  condensed: $line-height-condensed,
 );
 
 $radius: (
@@ -226,15 +228,17 @@ $shadow: (
   xl: $shadow-xl,
 );
 
-$spacing: (
-  xs: $spacing-xs,
-  sm: $spacing-sm,
-  md: $spacing-md,
-  lg: $spacing-lg,
-  xl: $spacing-xl,
+$space: (
+  0: $space-0,
+  xxs: $space-xxs,
+  xs: $space-xs,
+  sm: $space-sm,
+  md: $space-md,
+  lg: $space-lg,
+  xl: $space-xl,
 );
 
-$theme: (
+$theme-colors: (
   primary: $color-primary,
   success: $color-success,
   warning: $color-warning,
