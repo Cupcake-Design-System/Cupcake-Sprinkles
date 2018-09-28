@@ -11,7 +11,7 @@ requiredir('./gulp');
 
 gulp.task(
   'default',
-  gulp.series('clean:tokens', 'tokens:colors-map', 'tokens:map', 'tokens:core', (done) => {
+  gulp.series('clean:tokens', 'tokens:colors-map', 'tokens:extended-colors-map', 'tokens:map', 'tokens:core', (done) => {
     done();
   })
 );

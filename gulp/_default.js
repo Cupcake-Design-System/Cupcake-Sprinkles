@@ -11,7 +11,7 @@ theo.registerFormat("deep", result => {
     .first()
     .toJS();
   return `
-  $${type}: (
+  $${category}: (
   ${result
     .get("props")
     .map(
