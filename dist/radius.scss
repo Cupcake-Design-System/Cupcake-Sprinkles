@@ -1,0 +1,24 @@
+
+/// Returns the radius value for a given variant.
+///
+/// @param {String} $radius - how much space do you need.
+/// @return {Number} The spacing for the variant in px.
+@function radius($value: md) {
+  $fetched-value: map-get($radius, $value);
+
+  @if type-of($fetched-value) == number {
+    @return $fetched-value;
+  } @else {
+    @error 'Radius variant #{$radius} not found.';
+  }
+}
+
+$radius: (
+    0: $radius-0,
+    square: $radius-square,
+    sm: $radius-sm,
+    md: $radius-md,
+    lg: $radius-lg,
+    round: $radius-round,
+    pill: $radius-pill,
+  );

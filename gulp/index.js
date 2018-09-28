@@ -97,3 +97,10 @@ gulp.task('tokens:merge', (done) => {
 done();
 });
 
+gulp.task('map:merge', (done) => {
+  gulp.src(['./dist/*.scss', '!./dist/_variables.scss'])
+      .pipe(vinylPaths(del))
+      .pipe(concat('_maps.scss'))
+      .pipe(gulp.dest(config.tokens.output))
+done();
+});

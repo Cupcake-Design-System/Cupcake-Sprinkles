@@ -15,11 +15,11 @@
     "access": "public"
   },
   "scripts": {
-    "lint:tokens:css": "stylelint 'dist/*.scss'  --fix",
     "release": "release-it",
+    "lint:css": "stylelint 'dist/*.scss'  --fix",
     "lint:tokens": "yamllint ./tokens/*.yml",
+    "default": "npm run lint:tokens && gulp & gulp tokens:merge && npm run lint:css",
     "merge:tokens": "gulp tokens:merge",
-    "default": "npm run lint:tokens && gulp && npm run merge:tokens && npm run lint:tokens:css",
     "extended": "npm run lint:tokens && gulp extended && npm run lint:tokens:css"
   },
   "keywords": [
@@ -36,6 +36,7 @@
     "del": "^3.0.0",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-concat": "^2.6.1",
+    "gulp-footer": "^2.0.1",
     "gulp-header": "^2.0.5",
     "gulp-rename": "^1.4.0",
     "gulp-theo": "^2.0.0-beta.1",

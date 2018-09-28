@@ -22,7 +22,7 @@ gulp.task('custom-properties', (done) => {
             opt.basename = opt.basename.replace(/.custom-properties/, '');
             return opt;
           }))
-          .pipe(gulp.dest(config.tokens.formats + '/custom-properties'))
+          .pipe(gulp.dest(config.tokens.output + '/custom-properties'))
   done();
 });
 

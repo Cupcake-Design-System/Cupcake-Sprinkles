@@ -1,0 +1,88 @@
+
+/// Returns the color value for a given color name and group.
+/// @param {String} $value [primary] - The color's base.
+/// @param {Number} $range [7] - The darkness/lightness of the color. Defaults to 7. The higher the number, the darker the color.
+/// @return {Color} - The color value.
+@function color($value: primary, $range: 7) {
+
+  @if $value == black {
+    @return $color-black;
+  } @else if $value == white {
+    @return $color-white;
+  } @else if $value == gray {
+    @return config($color, 'gray', $range);
+  } @else if {
+    @return config($color, $value, $range);
+  } @else {
+    @error 'Color #{value} - #{$range} not found.';
+  }
+}
+
+  $color: (
+  
+      'danger': (
+        0: $color-danger-0,
+        1: $color-danger-1,
+        2: $color-danger-2,
+        3: $color-danger-3,
+        4: $color-danger-4,
+        5: $color-danger-5,
+        6: $color-danger-6,
+        7: $color-danger-7,
+        8: $color-danger-8,
+        9: $color-danger-9
+      ),
+
+      'gray': (
+        0: $color-gray-0,
+        1: $color-gray-1,
+        2: $color-gray-2,
+        3: $color-gray-3,
+        4: $color-gray-4,
+        5: $color-gray-5,
+        6: $color-gray-6,
+        7: $color-gray-7,
+        8: $color-gray-8,
+        9: $color-gray-9
+      ),
+
+      'primary': (
+        0: $color-primary-0,
+        1: $color-primary-1,
+        2: $color-primary-2,
+        3: $color-primary-3,
+        4: $color-primary-4,
+        5: $color-primary-5,
+        6: $color-primary-6,
+        7: $color-primary-7,
+        8: $color-primary-8,
+        9: $color-primary-9
+      ),
+
+      'success': (
+        0: $color-success-0,
+        1: $color-success-1,
+        2: $color-success-2,
+        3: $color-success-3,
+        4: $color-success-4,
+        5: $color-success-5,
+        6: $color-success-6,
+        7: $color-success-7,
+        8: $color-success-8,
+        9: $color-success-9
+      ),
+
+      'warning': (
+        0: $color-warning-0,
+        1: $color-warning-1,
+        2: $color-warning-2,
+        3: $color-warning-3,
+        4: $color-warning-4,
+        5: $color-warning-5,
+        6: $color-warning-6,
+        7: $color-warning-7,
+        8: $color-warning-8,
+        9: $color-warning-9
+      ),
+  );
+  

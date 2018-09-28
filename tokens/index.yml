@@ -8,4 +8,4 @@ imports:
   - ./radius.yml
   - ./shadow.yml
   - ./space.yml
-  - ./theme.yml
+  - ./theme-colors.yml

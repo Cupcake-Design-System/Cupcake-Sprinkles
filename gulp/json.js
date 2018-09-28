@@ -22,7 +22,7 @@ gulp.task('json', (done) => {
             opt.basename = opt.basename.replace(/.js/, '');
             return opt;
           }))
-          .pipe(gulp.dest(config.tokens.formats + '/json'))
+          .pipe(gulp.dest(config.tokens.output + '/json'))
   done();
 });
 
