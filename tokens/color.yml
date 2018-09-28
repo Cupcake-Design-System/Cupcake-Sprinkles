@@ -1,8 +1,11 @@
 global:
   type: color
   category: background-color
+
 imports:
+  - ./_aliases-color.yml
   - ./_aliases.yml
+
 props:
 
   - name: primary
@@ -130,8 +133,176 @@ props:
     value: "{!gray-9}"
 
   # Link Colors
-
   - name: link
     value: '{!color-link}'
   - name: link-hover
     value: '{!color-link-hover}'
+
+  # Extended Colors
+  - name: cyan-0
+    value: "{!cyan-0}"
+  - name: cyan-1
+    value: "{!cyan-1}"
+  - name: cyan-2
+    value: "{!cyan-2}"
+  - name: cyan-3
+    value: "{!cyan-3}"
+  - name: cyan-4
+    value: "{!cyan-4}"
+  - name: cyan-5
+    value: "{!cyan-5}"
+  - name: cyan-7
+    value: "{!cyan-7}"
+  - name: cyan-6
+    value: "{!cyan-6}"
+  - name: cyan-8
+    value: "{!cyan-8}"
+  - name: cyan-9
+    value: "{!cyan-9}"
+
+  - name: grape-0
+    value: "{!grape-0}"
+  - name: grape-1
+    value: "{!grape-1}"
+  - name: grape-2
+    value: "{!grape-2}"
+  - name: grape-3
+    value: "{!grape-3}"
+  - name: grape-4
+    value: "{!grape-4}"
+  - name: grape-5
+    value: "{!grape-5}"
+  - name: grape-6
+    value: "{!grape-6}"
+  - name: grape-7
+    value: "{!grape-7}"
+  - name: grape-8
+    value: "{!grape-8}"
+  - name: grape-9
+    value: "{!grape-9}"
+
+  - name: indigo-0
+    value: "{!indigo-0}"
+  - name: indigo-1
+    value: "{!indigo-1}"
+  - name: indigo-2
+    value: "{!indigo-2}"
+  - name: indigo-3
+    value: "{!indigo-3}"
+  - name: indigo-4
+    value: "{!indigo-4}"
+  - name: indigo-5
+    value: "{!indigo-5}"
+  - name: indigo-6
+    value: "{!indigo-6}"
+  - name: indigo-7
+    value: "{!indigo-7}"
+  - name: indigo-8
+    value: "{!indigo-8}"
+  - name: indigo-9
+    value: "{!indigo-9}"
+
+  - name: lime-0
+    value: "{!lime-0}"
+  - name: lime-1
+    value: "{!lime-1}"
+  - name: lime-2
+    value: "{!lime-2}"
+  - name: lime-3
+    value: "{!lime-3}"
+  - name: lime-4
+    value: "{!lime-4}"
+  - name: lime-5
+    value: "{!lime-5}"
+  - name: lime-6
+    value: "{!lime-6}"
+  - name: lime-7
+    value: "{!lime-7}"
+  - name: lime-8
+    value: "{!lime-8}"
+  - name: lime-9
+    value: "{!lime-9}"
+
+  - name: orange-0
+    value: "{!orange-0}"
+  - name: orange-1
+    value: "{!orange-1}"
+  - name: orange-2
+    value: "{!orange-2}"
+  - name: orange-3
+    value: "{!orange-3}"
+  - name: orange-4
+    value: "{!orange-4}"
+  - name: orange-5
+    value: "{!orange-5}"
+  - name: orange-6
+    value: "{!orange-6}"
+  - name: orange-7
+    value: "{!orange-7}"
+  - name: orange-8
+    value: "{!orange-8}"
+  - name: orange-9
+    value: "{!orange-9}"
+
+  - name: pink-0
+    value: "{!pink-0}"
+  - name: pink-1
+    value: "{!pink-1}"
+  - name: pink-2
+    value: "{!pink-2}"
+  - name: pink-3
+    value: "{!pink-3}"
+  - name: pink-4
+    value: "{!pink-4}"
+  - name: pink-5
+    value: "{!pink-5}"
+  - name: pink-6
+    value: "{!pink-6}"
+  - name: pink-7
+    value: "{!pink-7}"
+  - name: pink-8
+    value: "{!pink-8}"
+  - name: pink-9
+    value: "{!pink-9}"
+
+  - name: teal-0
+    value: "{!teal-0}"
+  - name: teal-1
+    value: "{!teal-1}"
+  - name: teal-2
+    value: "{!teal-2}"
+  - name: teal-3
+    value: "{!teal-3}"
+  - name: teal-4
+    value: "{!teal-4}"
+  - name: teal-5
+    value: "{!teal-5}"
+  - name: teal-6
+    value: "{!teal-6}"
+  - name: teal-7
+    value: "{!teal-7}"
+  - name: teal-8
+    value: "{!teal-8}"
+  - name: teal-9
+    value: "{!teal-9}"
+
+  - name: violet-0
+    value: "{!violet-0}"
+  - name: violet-1
+    value: "{!violet-1}"
+  - name: violet-2
+    value: "{!violet-2}"
+  - name: violet-3
+    value: "{!violet-3}"
+  - name: violet-4
+    value: "{!violet-4}"
+  - name: violet-5
+    value: "{!violet-5}"
+  - name: violet-6
+    value: "{!violet-6}"
+  - name: violet-7
+    value: "{!violet-7}"
+  - name: violet-8
+    value: "{!violet-8}"
+  - name: violet-9
+    value: "{!violet-9}"

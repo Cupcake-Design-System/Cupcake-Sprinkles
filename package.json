@@ -18,7 +18,7 @@
     "release": "release-it",
     "lint:css": "stylelint 'dist/*.scss'  --fix",
     "lint:tokens": "yamllint ./tokens/*.yml",
-    "default": "npm run lint:tokens && gulp & gulp tokens:merge && npm run lint:css",
+    "default": "npm run lint:tokens && gulp && gulp map:merge && npm run lint:css",
     "merge:tokens": "gulp tokens:merge",
     "extended": "npm run lint:tokens && gulp extended && npm run lint:tokens:css"
   },

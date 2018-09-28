@@ -48,7 +48,9 @@ gulp.task('tokens:core', (done) => {
     config.tokens.input + '/*.yml',
     '!./tokens/index.yml',
     '!./tokens/_aliases.yml',
-    '!./tokens/colors-map.yml'
+    '!./tokens/_aliases-color.yml',
+    '!./tokens/colors-map.yml',
+    '!./tokens/extended-colors.yml'
   ])
       .pipe(gulpTheo({
           transform: { includeMeta: true },
