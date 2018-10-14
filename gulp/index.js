@@ -26,7 +26,7 @@ gulp.task('tokens:map', (done) => {
         '!./tokens/index.yml',
         '!./tokens/_aliases.yml',
         '!./tokens/_aliases-color.yml',
-        '!./tokens/extended-colors.yml',
+        '!./tokens/colors-map-extended.yml',
         '!./tokens/colors-map.yml',
         '!./tokens/color.yml'
       ])
@@ -51,7 +51,10 @@ gulp.task('tokens:core', (done) => {
     '!./tokens/index.yml',
     '!./tokens/_aliases.yml',
     '!./tokens/_aliases-color.yml',
+    '!./tokens/theme-colors.yml',
     '!./tokens/extended-colors.yml',
+    '!./tokens/extended-colors-light.yml',
+    '!./tokens/colors-map-extended.yml',
     '!./tokens/colors-map.yml'
   ])
       .pipe(gulpTheo({
@@ -85,13 +88,13 @@ gulp.task('tokens:colors-map', (done) => {
 });
 
 gulp.task('tokens:extended-colors-map', (done) => {
-  gulp.src(config.tokens.input + '/extended-colors.yml')
+  gulp.src(config.tokens.input + '/colors-map-extended.yml')
       .pipe(gulpTheo({
           transform: { includeMeta: true },
           format: { type: 'deep' }
       }))
       .pipe(rename(function(path) {
-          path.basename = '_extended-colors';
+          path.basename = '_colors-map-extended';
           path.extname = ".scss";
       }))
       .pipe(gulp.dest(config.tokens.output))
@@ -108,7 +111,7 @@ gulp.task('clean:tokens', (done) => {
 
 
 gulp.task('tokens:merge', (done) => {
-  gulp.src(['./dist/_variables.scss', './dist/_colors-map.scss', './dist/_extended-colors.scss', './dist/_maps.scss'])
+  gulp.src(['./dist/_variables.scss', './dist/_colors-map.scss', './dist/_colors-map-extended.scss', './dist/_maps.scss'])
       .pipe(vinylPaths(del))
       .pipe(concat('_tokens.scss'))
       .pipe(addHeader(metaHeader))

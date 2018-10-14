@@ -1,7 +1,7 @@
 
 /* ----------------------- */
 /* 🎂 Cupcake Sprinkles 🎂 */
-/* imported from: @cupcake-ds/cupcake-sprinkles version: 0.2.2 */
+/* imported from: @cupcake-ds/cupcake-sprinkles version: 0.2.3 */
 /* DO NOT MODIFY THIS FILE DIRECTLY! */
 /* ALL VALUES COME FROM THE @cupcake-ds/cupcake-sprinkles PACKAGE */
 /* ----------------------- */
@@ -185,7 +185,7 @@ $line-height-default: 1.5 !default;
 $line-height-condensed: 1.25 !default;
 
 
-$radius-0: none !default;
+$radius-0: 0 !default;
 $radius-square: 0 !default;
 $radius-sm: 2px !default;
 $radius-md: 4px !default;
@@ -387,6 +387,29 @@ $color-extended: (
 );
   
 
+$extended-colors-light: (
+  cyan-light: $color-cyan-light,
+  grape-light: $color-grape-light,
+  indigo-light: $color-indigo-light,
+  lime-light: $color-lime-light,
+  orange-light: $color-orange-light,
+  pink-light: $color-pink-light,
+  teal-light: $color-teal-light,
+  violet-light: $color-violet-light,
+);
+
+$extended-colors: (
+  dark: $color-dark,
+  cyan: $color-cyan,
+  grape: $color-grape,
+  indigo: $color-indigo,
+  lime: $color-lime,
+  orange: $color-orange,
+  pink: $color-pink,
+  teal: $color-teal,
+  violet: $color-violet,
+);
+
 $font-body: (
   xs: $font-body-xs,
   sm: $font-body-sm,
@@ -458,4 +481,13 @@ $space: (
   md: $space-md,
   lg: $space-lg,
   xl: $space-xl,
+);
+
+$theme-colors: (
+  primary: $color-primary,
+  success: $color-success,
+  warning: $color-warning,
+  danger: $color-danger,
+  black: $color-black,
+  white: $color-white,
 );

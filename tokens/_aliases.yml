@@ -58,7 +58,7 @@ aliases:
   line-height-default  : '1.5'
   line-height-condensed: '1.25'
 
-  radius-0     : none
+  radius-0     : 0
   radius-square: 0
   radius-sm    : 2px
   radius-md    : 4px

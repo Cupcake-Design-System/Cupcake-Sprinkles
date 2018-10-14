@@ -1,0 +1,28 @@
+global:
+  type: color
+  category: background-color
+
+imports:
+  - ./_aliases-color.yml
+  - ./_aliases.yml
+
+props:
+
+  - name: primary
+    value: "{!primary-8}"
+
+  - name: success
+    value: "{!success-8}"
+
+  - name: warning
+    value: "{!warning-8}"
+
+  - name: danger
+    value: "{!danger-8}"
+
+  - name: black
+    value: "{!black}"
+
+  - name: white
+    value: "{!white}"
+

@@ -1,112 +1,36 @@
 global:
   type: color
-  category: color-extended
+  category: background-color
 
 imports:
   - ./_aliases-color.yml
+  - ./_aliases.yml
 
 props:
+
+  - name: dark
+    value: "{!gray-9}"
+
   - name: cyan
-    value:
-      0: "{!cyan-0}"
-      1: "{!cyan-1}"
-      2: "{!cyan-2}"
-      3: "{!cyan-3}"
-      4: "{!cyan-4}"
-      5: "{!cyan-5}"
-      7: "{!cyan-7}"
-      6: "{!cyan-6}"
-      8: "{!cyan-8}"
-      9: "{!cyan-9}"
+    value: "{!cyan-9}"
 
   - name: grape
-    value:
-      0: "{!grape-0}"
-      1: "{!grape-1}"
-      2: "{!grape-2}"
-      3: "{!grape-3}"
-      4: "{!grape-4}"
-      5: "{!grape-5}"
-      7: "{!grape-7}"
-      6: "{!grape-6}"
-      8: "{!grape-8}"
-      9: "{!grape-9}"
+    value: "{!grape-9}"
 
   - name: indigo
-    value:
-      0: "{!indigo-0}"
-      1: "{!indigo-1}"
-      2: "{!indigo-2}"
-      3: "{!indigo-3}"
-      4: "{!indigo-4}"
-      5: "{!indigo-5}"
-      7: "{!indigo-7}"
-      6: "{!indigo-6}"
-      8: "{!indigo-8}"
-      9: "{!indigo-9}"
+    value: "{!indigo-9}"
 
   - name: lime
-    value:
-      0: "{!lime-0}"
-      1: "{!lime-1}"
-      2: "{!lime-2}"
-      3: "{!lime-3}"
-      4: "{!lime-4}"
-      5: "{!lime-5}"
-      7: "{!lime-7}"
-      6: "{!lime-6}"
-      8: "{!lime-8}"
-      9: "{!lime-9}"
+    value: "{!lime-9}"
 
   - name: orange
-    value:
-      0: "{!orange-0}"
-      1: "{!orange-1}"
-      2: "{!orange-2}"
-      3: "{!orange-3}"
-      4: "{!orange-4}"
-      5: "{!orange-5}"
-      7: "{!orange-7}"
-      6: "{!orange-6}"
-      8: "{!orange-8}"
-      9: "{!orange-9}"
+    value: "{!orange-9}"
 
   - name: pink
-    value:
-      0: "{!pink-0}"
-      1: "{!pink-1}"
-      2: "{!pink-2}"
-      3: "{!pink-3}"
-      4: "{!pink-4}"
-      5: "{!pink-5}"
-      7: "{!pink-7}"
-      6: "{!pink-6}"
-      8: "{!pink-8}"
-      9: "{!pink-9}"
+    value: "{!pink-9}"
 
   - name: teal
-    value:
-      0: "{!teal-0}"
-      1: "{!teal-1}"
-      2: "{!teal-2}"
-      3: "{!teal-3}"
-      4: "{!teal-4}"
-      5: "{!teal-5}"
-      7: "{!teal-7}"
-      6: "{!teal-6}"
-      8: "{!teal-8}"
-      9: "{!teal-9}"
+    value: "{!teal-9}"
 
   - name: violet
-    value:
-      0: "{!violet-0}"
-      1: "{!violet-1}"
-      2: "{!violet-2}"
-      3: "{!violet-3}"
-      4: "{!violet-4}"
-      5: "{!violet-5}"
-      7: "{!violet-7}"
-      6: "{!violet-6}"
-      8: "{!violet-8}"
-      9: "{!violet-9}"
-
+    value: "{!violet-9}"

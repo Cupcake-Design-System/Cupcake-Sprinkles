@@ -9,3 +9,5 @@ imports:
   - ./shadow.yml
   - ./space.yml
   - ./theme-colors.yml
+  - ./extended-colors.yml
+  - ./extended-colors-light.yml

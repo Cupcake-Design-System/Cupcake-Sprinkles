@@ -1,0 +1,33 @@
+global:
+  type: color
+  category: background-color
+
+imports:
+  - ./_aliases-color.yml
+  - ./_aliases.yml
+
+props:
+
+  - name: cyan-light
+    value: "{!cyan-1}"
+
+  - name: grape-light
+    value: "{!grape-1}"
+
+  - name: indigo-light
+    value: "{!indigo-1}"
+
+  - name: lime-light
+    value: "{!lime-1}"
+
+  - name: orange-light
+    value: "{!orange-1}"
+
+  - name: pink-light
+    value: "{!pink-1}"
+
+  - name: teal-light
+    value: "{!teal-1}"
+
+  - name: violet-light
+    value: "{!violet-1}"
