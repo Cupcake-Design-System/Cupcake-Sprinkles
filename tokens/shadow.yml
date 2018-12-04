@@ -2,9 +2,12 @@ global:
   type: shadow
   category: shadow
 imports:
-  - ./_aliases.yml
+  - ./aliases/_aliases.yml
 
 props:
+
+  - name: 0
+    value: '{!shadow-none}'
 
   - name: xs
     value: '{!shadow-xs}'

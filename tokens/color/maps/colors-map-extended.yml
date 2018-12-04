@@ -3,7 +3,7 @@ global:
   category: color-extended
 
 imports:
-  - ./_aliases-color.yml
+  - ../../aliases/_aliases-color.yml
 
 props:
   - name: cyan

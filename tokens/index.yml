@@ -1,13 +1,13 @@
 imports:
-  - ./color.yml
+  - ./color/color.yml
   - ./font-body.yml
-  - ./font-headers.yml
+  - ./font-header.yml
   - ./line-height.yml
   - ./font-family.yml
   - ./font-weight.yml
   - ./radius.yml
   - ./shadow.yml
   - ./space.yml
-  - ./theme-colors.yml
-  - ./extended-colors.yml
-  - ./extended-colors-light.yml
+  - ./color/theme-colors.yml
+  - ./color/extended-colors.yml
+  - ./color/extended-colors-light.yml

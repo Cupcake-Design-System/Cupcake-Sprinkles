@@ -2,7 +2,7 @@ global:
   type: space
   category: space
 imports:
-  - ./_aliases.yml
+  - ./aliases/_aliases.yml
 
 props:
 

@@ -1,0 +1,33 @@
+$font: (
+  'family': (
+    sans: $font-family-sans,
+    mono: $font-family-mono
+  )
+  'body': (
+    xxl: $font-body-xxl,
+    xl: $font-body-xl,
+    lg: $font-body-lg,
+    md: $font-body-md,
+    sm: $font-body-sm,
+    xs: $font-body-xs
+  )
+  'header': (
+    xxl: $font-header-xxl,
+    xl: $font-header-xl,
+    lg: $font-header-lg,
+    md: $font-header-md,
+    sm: $font-header-sm,
+    xs: $font-header-xs
+  )
+  'weight': (
+    bold: $font-weight-bold,
+    semibold: $font-weight-semibold,
+    normal: $font-weight-normal,
+    light: $font-weight-light
+  )
+  'line-height': (
+    normal: $font-line-height-normal,
+    default: $font-line-height-default,
+    condensed: $font-line-height-condensed
+  )
+) !default;

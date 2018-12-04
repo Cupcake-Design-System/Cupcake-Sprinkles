@@ -3,7 +3,7 @@ global:
   category: color
 
 imports:
-  - ./_aliases-color.yml
+  - ../../aliases/_aliases-color.yml
 
 props:
   - name: primary

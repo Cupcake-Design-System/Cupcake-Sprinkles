@@ -2,10 +2,9 @@ global:
   type: radius
   category: radius
 imports:
-  - ./_aliases.yml
+  - ./aliases/_aliases.yml
 
 props:
-
   - name: 0
     value: "{!radius-0}"
 
@@ -19,11 +18,7 @@ props:
     value: "{!radius-md}"
 
   - name: lg
-    value: "{!radius-lg}"
-
-  - name: round
-    value: "{!radius-round}"
+    value: '{!radius-md}'
 
   - name: pill
-    value: "{!radius-pill}"
-
+    value: '{!radius-pill}'

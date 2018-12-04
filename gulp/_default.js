@@ -43,10 +43,12 @@ $\{{stem meta.file}}: (
   {{/each}}
   );`);
 
-  theo.registerFormat('default', `
+
+theo.registerFormat('default', `
   {{#each props as |prop|}}
   $\{{kebabcase prop.type}}-{{kebabcase prop.name}}: {{#eq prop.type "string"}}"{{/eq}}{{{prop.value}}}{{#eq prop.type "string"}}"{{/eq}} !default;
 {{/each}}`);
+
 
 theo.registerFormat('cssCustomProps', `:root {
   {{#each props as |prop|}}
@@ -56,6 +58,7 @@ theo.registerFormat('cssCustomProps', `:root {
     --{{kebabcase prop.type}}-{{kebabcase prop.name}}: {{#eq prop.type "string"}}"{{/eq}}{{{prop.value}}}{{#eq prop.type "string"}}"{{/eq}};
   {{/each}}
   }`);
+
 
 theo.registerFormat('cssModules', `
 {{#each props as |prop|}}
@@ -85,6 +88,7 @@ theo.registerFormat("module", def => {
   .join("\n");
 });
 ;
+
 
 theo.registerFormat('JSON', `{
   {{#each props as |prop|}}

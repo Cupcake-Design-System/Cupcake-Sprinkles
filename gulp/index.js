@@ -23,12 +23,11 @@ var metaHeader = `
 gulp.task('tokens:map', (done) => {
       gulp.src([
         config.tokens.input + '/*.yml',
+        config.tokens.input + '/color/*.yml',
+        '!./tokens/color/color.yml',
         '!./tokens/index.yml',
         '!./tokens/_aliases.yml',
-        '!./tokens/_aliases-color.yml',
-        '!./tokens/colors-map-extended.yml',
-        '!./tokens/colors-map.yml',
-        '!./tokens/color.yml'
+        '!./tokens/_aliases-color.yml'
       ])
           .pipe(gulpTheo({
               transform: { includeMeta: true },
@@ -48,14 +47,10 @@ gulp.task('tokens:map', (done) => {
 gulp.task('tokens:core', (done) => {
   gulp.src([
     config.tokens.input + '/*.yml',
+    config.tokens.input + '/color/color.yml',
     '!./tokens/index.yml',
     '!./tokens/_aliases.yml',
-    '!./tokens/_aliases-color.yml',
-    '!./tokens/theme-colors.yml',
-    '!./tokens/extended-colors.yml',
-    '!./tokens/extended-colors-light.yml',
-    '!./tokens/colors-map-extended.yml',
-    '!./tokens/colors-map.yml'
+    '!./tokens/_aliases-color.yml'
   ])
       .pipe(gulpTheo({
           transform: { includeMeta: true },
@@ -74,7 +69,7 @@ done();
 
 
 gulp.task('tokens:colors-map', (done) => {
-      gulp.src(config.tokens.input + '/colors-map.yml')
+      gulp.src(config.tokens.input + '/color/maps/colors-map.yml')
           .pipe(gulpTheo({
               transform: { includeMeta: true },
               format: { type: 'deep' }
@@ -87,8 +82,9 @@ gulp.task('tokens:colors-map', (done) => {
   done();
 });
 
+
 gulp.task('tokens:extended-colors-map', (done) => {
-  gulp.src(config.tokens.input + '/colors-map-extended.yml')
+  gulp.src(config.tokens.input + '/color/maps/colors-map-extended.yml')
       .pipe(gulpTheo({
           transform: { includeMeta: true },
           format: { type: 'deep' }
@@ -100,7 +96,6 @@ gulp.task('tokens:extended-colors-map', (done) => {
       .pipe(gulp.dest(config.tokens.output))
 done();
 });
-
 
 
 gulp.task('clean:tokens', (done) => {

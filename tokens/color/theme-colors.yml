@@ -3,8 +3,8 @@ global:
   category: background-color
 
 imports:
-  - ./_aliases-color.yml
-  - ./_aliases.yml
+  - ../aliases/_aliases-color.yml
+  - ../aliases/_aliases.yml
 
 props:
 

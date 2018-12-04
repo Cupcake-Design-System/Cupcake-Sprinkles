@@ -1,0 +1,19 @@
+global:
+  type: body
+  category: body
+imports:
+  - ../aliases/_aliases.yml
+
+props:
+
+  - name: xs
+    value:
+      font-size: '{!font-body-xs}'
+      font-weight: '{!font-weight-semibold}'
+      line-height: '{!line-height-condensed}'
+
+  - name: sm
+    value:
+      font-size: '{!font-body-sm}'
+      font-weight: '{!font-weight-semibold}'
+      line-height: '{!line-height-condensed}'
