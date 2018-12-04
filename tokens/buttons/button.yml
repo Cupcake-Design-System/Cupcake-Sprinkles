@@ -1,0 +1,16 @@
+global:
+  category: typography
+  type: typography
+
+props:
+  # Header
+  primary:
+    value:
+      background: "purple"
+      background-hover: "green"
+
+  success:
+    value:
+      background: "purple"
+      background-hover: "green"
+

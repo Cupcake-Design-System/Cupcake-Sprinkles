@@ -1,0 +1,71 @@
+@mixin body-xs() {
+$color-xs-font-size: 10px !default;
+  $color-xs-font-weight: 600 !default;
+  $color-xs-line-height: 1.25 !default;
+}
+
+@mixin body-sm() {
+$color-sm-font-size: 11px !default;
+  $color-sm-font-weight: 600 !default;
+  $color-sm-line-height: 1.25 !default;
+}
+
+@mixin body-md() {
+$color-md-font-size: 12px !default;
+  $color-md-font-weight: 600 !default;
+  $color-md-line-height: 1.25 !default;
+}
+
+@mixin body-lg() {
+$color-lg-font-size: 14px !default;
+  $color-lg-font-weight: 600 !default;
+  $color-lg-line-height: 1.25 !default;
+}
+
+@mixin body-xl() {
+$color-xl-font-size: 16px !default;
+  $color-xl-font-weight: 600 !default;
+  $color-xl-line-height: 1.25 !default;
+}
+
+@mixin body-xxl() {
+$color-xxl-font-size: 18px !default;
+  $color-xxl-font-weight: 600 !default;
+  $color-xxl-line-height: 1.25 !default;
+}
+
+@mixin header-xs() {
+$color-xs-font-size: 12px !default;
+  $color-xs-font-weight: 600 !default;
+  $color-xs-line-height: 1.25 !default;
+}
+
+@mixin header-sm() {
+$color-sm-font-size: 14px !default;
+  $color-sm-font-weight: 600 !default;
+  $color-sm-line-height: 1.25 !default;
+}
+
+@mixin header-md() {
+$color-md-font-size: 16px !default;
+  $color-md-font-weight: 600 !default;
+  $color-md-line-height: 1.25 !default;
+}
+
+@mixin header-lg() {
+$color-lg-font-size: 20px !default;
+  $color-lg-font-weight: 600 !default;
+  $color-lg-line-height: 1.25 !default;
+}
+
+@mixin header-xl() {
+$color-xl-font-size: 24px !default;
+  $color-xl-font-weight: 600 !default;
+  $color-xl-line-height: 1.25 !default;
+}
+
+@mixin header-xxl() {
+$color-xxl-font-size: 36px !default;
+  $color-xxl-font-weight: 600 !default;
+  $color-xxl-line-height: 1.25 !default;
+}

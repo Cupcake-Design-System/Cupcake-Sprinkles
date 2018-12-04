@@ -1,0 +1,34 @@
+
+  $header-text-sizes: (
+  'lg': (
+        font-size: $font-header-lg,
+        font-weight: $font-header-lg-weight,
+        line-height: $font-header-lg-line-height
+      ),
+'md': (
+        font-size: $font-header-md,
+        font-weight: $font-header-md-weight,
+        line-height: $font-header-md-line-height
+      ),
+'sm': (
+        font-size: $font-header-sm,
+        font-weight: $font-header-sm-weight,
+        line-height: $font-header-sm-line-height
+      ),
+'xl': (
+        font-size: $font-header-xl,
+        font-weight: $font-header-xl-weight,
+        line-height: $font-header-xl-line-height
+      ),
+'xs': (
+        font-size: $font-header-xs,
+        font-weight: $font-header-xs-weight,
+        line-height: $font-header-xs-line-height
+      ),
+'xxl': (
+        font-size: $font-header-xxl,
+        font-weight: $font-header-xxl-weight,
+        line-height: $font-header-xxl-line-height
+      ),
+  );
+  

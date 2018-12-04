@@ -17,9 +17,3 @@ gulp.task(
 );
 
 
-gulp.task(
-  'extended',
-  gulp.series('clean:tokens', 'default', 'custom-properties', 'cssmodules', 'commonjs', 'json', 'modulejs', 'raw', (done) => {
-    done();
-  })
-);

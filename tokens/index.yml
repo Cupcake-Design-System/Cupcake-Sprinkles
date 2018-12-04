@@ -1,10 +1,5 @@
 imports:
   - ./color.yml
-  - ./font-body.yml
-  - ./font-headers.yml
-  - ./line-height.yml
-  - ./font-family.yml
-  - ./font-weight.yml
   - ./radius.yml
   - ./shadow.yml
   - ./space.yml

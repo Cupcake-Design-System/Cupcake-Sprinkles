@@ -43,10 +43,10 @@ $\{{stem meta.file}}: (
   {{/each}}
   );`);
 
-  theo.registerFormat('default', `
-  {{#each props as |prop|}}
-  $\{{kebabcase prop.type}}-{{kebabcase prop.name}}: {{#eq prop.type "string"}}"{{/eq}}{{{prop.value}}}{{#eq prop.type "string"}}"{{/eq}} !default;
-{{/each}}`);
+//   theo.registerFormat('default', `
+//   {{#each props as |prop|}}
+//   $\{{kebabcase prop.type}}-{{kebabcase prop.name}}: {{#eq prop.type "string"}}"{{/eq}}{{{prop.value}}}{{#eq prop.type "string"}}"{{/eq}} !default;
+// {{/each}}`);
 
 theo.registerFormat('cssCustomProps', `:root {
   {{#each props as |prop|}}
@@ -94,7 +94,6 @@ theo.registerFormat('JSON', `{
     "{{kebabcase prop.type}}-{{kebabcase prop.name}}": "{{{prop.value}}}",
   {{/each}}
   }`);
-
 
 
 gulp.task('clean', () => del('./dist'));

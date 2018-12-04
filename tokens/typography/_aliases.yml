@@ -1,0 +1,30 @@
+aliases:
+  # Font Stack
+  font-stack-sans: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto
+  font-stack-mono: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace
+
+  # Font Weight
+  font-weight-bold: 900
+  font-weight-semibold: 600
+  font-weight-normal: 400
+  font-weight-light: 300
+
+  # Font Header
+  font-header-xs : 12px
+  font-header-sm : 14px
+  font-header-md : 16px
+  font-header-lg : 20px
+  font-header-xl : 24px
+  font-header-xxl: 36px
+
+  # Font Body
+  font-body-xs : 10px
+  font-body-sm : 11px
+  font-body-md : 12px
+  font-body-lg : 14px
+  font-body-xl : 16px
+  font-body-xxl: 18px
+
+  line-height-normal   : 'normal'
+  line-height-default  : '1.5'
+  line-height-condensed: '1.25'

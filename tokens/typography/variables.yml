@@ -1,0 +1,102 @@
+global:
+  type: font-variables
+  category: font-variables
+imports:
+  - ./_aliases.yml
+
+props:
+
+  - name: font-header-xs
+    value: "{!font-header-xs}"
+
+  - name: font-header-sm
+    value: "{!font-header-sm}"
+
+  - name: font-header-md
+    value: "{!font-header-md}"
+
+  - name: font-header-lg
+    value: "{!font-header-lg}"
+
+  - name: font-header-xl
+    value: "{!font-header-xl}"
+
+  - name: font-header-xxl
+    value: "{!font-header-xxl}"
+
+  # Header Weights
+  - name: font-header-xs-weight
+    value: "{!font-weight-semibold}"
+
+  - name: font-header-sm-weight
+    value: "{!font-weight-semibold}"
+
+  - name: font-header-md-weight
+    value: "{!font-weight-semibold}"
+
+  - name: font-header-lg-weight
+    value: "{!font-weight-semibold}"
+
+  - name: font-header-xl-weight
+    value: "{!font-weight-semibold}"
+
+  - name: font-header-xxl-weight
+    value: "{!font-weight-semibold}"
+
+
+  # Body Font Sizes
+  - name: font-body-xs
+    value: "{!font-body-xs}"
+
+  - name: font-body-sm
+    value: "{!font-body-sm}"
+
+  - name: font-body-md
+    value: "{!font-body-md}"
+
+  - name: font-body-lg
+    value: "{!font-body-lg}"
+
+  - name: font-body-xl
+    value: "{!font-body-xl}"
+
+  - name: font-body-xxl
+    value: "{!font-body-xxl}"
+
+
+  # Header Weights
+  - name: font-body-xs-weight
+    value: "{!font-weight-normal}"
+
+  - name: font-body-sm-weight
+    value: "{!font-weight-normal}"
+
+  - name: font-body-md-weight
+    value: "{!font-weight-normal}"
+
+  - name: font-body-lg-weight
+    value: "{!font-weight-normal}"
+
+  - name: font-body-xl-weight
+    value: "{!font-weight-normal}"
+
+  - name: font-body-xxl-weight
+    value: "{!font-weight-normal}"
+
+  - name: font-stack-sans
+    value: '{!font-stack-sans}'
+
+  - name: font-stack-mono
+    value: '{!font-stack-mono}'
+
+  - name: font-weight-bold
+    value: "{!font-weight-bold}"
+
+  - name: font-weight-semibold
+    value: "{!font-weight-semibold}"
+
+  - name: font-weight-normal
+    value: "{!font-weight-normal}"
+
+  - name: font-weight-light
+    value: "{!font-weight-light}"

@@ -1,0 +1,34 @@
+
+  $body-text-sizes: (
+  'lg': (
+        font-size: $font-body-lg,
+        font-weight: $font-body-lg-weight,
+        line-height: $font-body-lg-line-height
+      ),
+'md': (
+        font-size: $font-body-md,
+        font-weight: $font-body-md-weight,
+        line-height: $font-body-md-line-height
+      ),
+'sm': (
+        font-size: $font-body-sm,
+        font-weight: $font-body-sm-weight,
+        line-height: $font-body-sm-line-height
+      ),
+'xl': (
+        font-size: $font-body-xl,
+        font-weight: $font-body-xl-weight,
+        line-height: $font-body-xl-line-height
+      ),
+'xs': (
+        font-size: $font-body-xs,
+        font-weight: $font-body-xs-weight,
+        line-height: $font-body-xs-line-height
+      ),
+'xxl': (
+        font-size: $font-body-xxl,
+        font-weight: $font-body-xxl-weight,
+        line-height: $font-body-xxl-line-height
+      ),
+  );
+  

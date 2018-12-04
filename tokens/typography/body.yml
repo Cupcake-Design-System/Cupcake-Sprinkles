@@ -1,0 +1,44 @@
+imports:
+  - ./_aliases.yml
+
+props:
+
+  - name: xs
+    value:
+      font-size: '{!font-body-xs}'
+      font-weight: '{!font-weight-semibold}'
+      line-height: '{!line-height-condensed}'
+
+  - name: sm
+    value:
+      font-size: '{!font-body-sm}'
+      font-weight: '{!font-weight-semibold}'
+      line-height: '{!line-height-condensed}'
+
+  - name: md
+    value:
+      font-size: '{!font-body-md}'
+      font-weight: '{!font-weight-semibold}'
+      line-height: '{!line-height-condensed}'
+
+  - name: lg
+    value:
+      font-size: '{!font-body-lg}'
+      font-weight: '{!font-weight-semibold}'
+      line-height: '{!line-height-condensed}'
+
+  - name: xl
+    value:
+      font-size: '{!font-body-xl}'
+      font-weight: '{!font-weight-semibold}'
+      line-height: '{!line-height-condensed}'
+
+  - name: xxl
+    value:
+      font-size: '{!font-body-xxl}'
+      font-weight: '{!font-weight-semibold}'
+      line-height: '{!line-height-condensed}'
+
+global:
+  type: body
+  category: body

@@ -1,0 +1,99 @@
+
+$font-header-xs: 12px !default;
+$font-header-sm: 14px !default;
+$font-header-md: 16px !default;
+$font-header-lg: 20px !default;
+$font-header-xl: 24px !default;
+$font-header-xxl: 36px !default;
+$font-header-xs-weight: 600 !default;
+$font-header-sm-weight: 600 !default;
+$font-header-md-weight: 600 !default;
+$font-header-lg-weight: 600 !default;
+$font-header-xl-weight: 600 !default;
+$font-header-xxl-weight: 600 !default;
+$font-body-xs: 10px !default;
+$font-body-sm: 11px !default;
+$font-body-md: 12px !default;
+$font-body-lg: 14px !default;
+$font-body-xl: 16px !default;
+$font-body-xxl: 18px !default;
+$font-body-xs-weight: 400 !default;
+$font-body-sm-weight: 400 !default;
+$font-body-md-weight: 400 !default;
+$font-body-lg-weight: 400 !default;
+$font-body-xl-weight: 400 !default;
+$font-body-xxl-weight: 400 !default;
+$font-stack-sans: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto !default;
+$font-stack-mono: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !default;
+$font-weight-bold: 900 !default;
+$font-weight-semibold: 600 !default;
+$font-weight-normal: 400 !default;
+$font-weight-light: 300 !default;
+
+
+$body-text-sizes: (
+  'lg': (
+    font-size: $font-body-lg,
+    font-weight: $font-body-lg-weight,
+    line-height: $font-body-lg-line-height
+  ),
+  'md': (
+    font-size: $font-body-md,
+    font-weight: $font-body-md-weight,
+    line-height: $font-body-md-line-height
+  ),
+  'sm': (
+    font-size: $font-body-sm,
+    font-weight: $font-body-sm-weight,
+    line-height: $font-body-sm-line-height
+  ),
+  'xl': (
+    font-size: $font-body-xl,
+    font-weight: $font-body-xl-weight,
+    line-height: $font-body-xl-line-height
+  ),
+  'xs': (
+    font-size: $font-body-xs,
+    font-weight: $font-body-xs-weight,
+    line-height: $font-body-xs-line-height
+  ),
+  'xxl': (
+    font-size: $font-body-xxl,
+    font-weight: $font-body-xxl-weight,
+    line-height: $font-body-xxl-line-height
+  ),
+);
+  
+
+$header-text-sizes: (
+  'lg': (
+    font-size: $font-header-lg,
+    font-weight: $font-header-lg-weight,
+    line-height: $font-header-lg-line-height
+  ),
+  'md': (
+    font-size: $font-header-md,
+    font-weight: $font-header-md-weight,
+    line-height: $font-header-md-line-height
+  ),
+  'sm': (
+    font-size: $font-header-sm,
+    font-weight: $font-header-sm-weight,
+    line-height: $font-header-sm-line-height
+  ),
+  'xl': (
+    font-size: $font-header-xl,
+    font-weight: $font-header-xl-weight,
+    line-height: $font-header-xl-line-height
+  ),
+  'xs': (
+    font-size: $font-header-xs,
+    font-weight: $font-header-xs-weight,
+    line-height: $font-header-xs-line-height
+  ),
+  'xxl': (
+    font-size: $font-header-xxl,
+    font-weight: $font-header-xxl-weight,
+    line-height: $font-header-xxl-line-height
+  ),
+);
